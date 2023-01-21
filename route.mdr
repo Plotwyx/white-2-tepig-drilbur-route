@@ -552,7 +552,7 @@ Se rendre à l'arène.
     :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
      - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
      - Echanger Pignite
-     -:info[Blaze Flame Charge]{color=red} / Flame Charge x2
+     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
        ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
     :::::
     :info[**Au niveau 22, apprendre Hone Claws à la place de Rapid Spin**]{color=yellow}
@@ -579,7 +579,7 @@ Avant Colress, **Soigner** Drilbur, **Repel**.
   :::::pokemon[Klink]
     - Dig
     - (Dig)
-     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true theme=error}
+     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 healthThreshold=54 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true theme=error}
      ::damage[Gear Grind]{source="Drilbur" level=21 opponentLevel=23 opponentStat=33 offensive=false movePower=100 stab=true}
   :::::
 :::::::
@@ -592,4 +592,126 @@ Avant Colress, **Soigner** Drilbur, **Repel**.
     :info[Fury Swipes peut infliger jusqu'à 40 si elle touche 5 fois]{color=blue}
     :::::
   :::::::
+  :info[**Au niveau 22, apprendre Hone Claws à la place de Rapid Spin**]{color=yellow}
 :::::::::
+
+Faire un detour par le Desert Resort.
+**Récupérer** le Soft Sand. (Skippable si x/x/29+)
+
+**Équiper** le Soft Sand et **utiliser** la protéine.
+
+Se rendre à l'ancienne arène.
+
+:::::::trainer[Rich Boy Rolan]
+  :::::pokemon[Blitzle]{info="Plus rapide à 42+ Spe (x/x/18+)" infoColor="pink"}
+   - Dig
+  :::::
+:::::::
+
+:::::::trainer[Lady Colette]
+  :::::pokemon[Flaaffy]
+   - Dig
+  :::::
+:::::::
+
+:::::if{source="Drilbur" condition="startingLevel=16-18" theme="warning"}
+  :::card{theme="error"}
+    ### Centre Pokémon
+    ##### Acheter :
+    - 4 Paralyze Heal (D)
+    - 2 Awakenings (B)
+    - 3 Revives (HHH)
+    - 11 Hyper Potions (H)
+    ##### Récupérer les Red Shards auprès du Gentleman.
+
+    ##### Soigner l'équipe au PC.
+    - Déposer Pignite si on a un surfer.
+    - Drilbur 1er, Zubat/Pidove 2e, Surfer/Pignite 3e
+
+  :::
+:::::
+
+:::::if{source="Drilbur" condition="startingLevel=19" theme="warning"}
+  :::card{theme="error"}
+    ### Centre Pokémon
+    ##### Acheter :
+    - 4 Paralyze Heal (D)
+    - 2 Awakenings (B)
+    - 1 Revive (HHH)
+    - 11 Hyper Potions (H)
+    ##### Récupérer les Red Shards auprès du Gentleman.
+
+    ##### Soigner l'équipe au PC.
+    - Déposer Pignite si on a un surfer.
+    - Drilbur 1er, Zubat/Pidove 2e, Surfer/Pignite 3e
+    
+  :::
+:::::
+
+**Récupérer** le revive dans la poubelle devant l'ancienne arène.
+
+Se rendre à l'arène.
+
+:info[Toujours soigner la paralysie directement]{color=red}
+
+:::::::trainer[Beauty Nikola]
+  :::::pokemon[Elekid]
+   - Dig
+  :::::
+  :::::pokemon[Flaaffy]
+   - Dig
+   - (Mud-Slap)
+     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true theme=error}
+  :::::
+:::::::
+
+:::::::trainer[Beauty Fleming]
+  :::::pokemon[Flaaffy]
+   - Dig
+  :::::
+  :::::pokemon[Blitzle]
+   - Dig
+  :::::
+:::::::
+
+:::::::trainer[Beauty Ampére]
+  :::::pokemon[Blitzle]
+   - Dig
+  :::::
+  :::::pokemon[Elekid]
+   - Dig
+  :::::
+:::::::
+:info[**Au niveau 26, apprendre Slash à la place de Mud-Slap**]{color=yellow}
+
+:::::::trainer[Leader Elesa]
+  :::::pokemon[Emolga]
+   - Hone Claws x2
+   - Slash x2
+     ::damage[QA/Pursuit]{source="Drilbur" level=26 opponentLevel=28 opponentStat=55 offensive=false movePower=40 stab=false}
+  :::::
+  :::::pokemon[Flaaffy]
+   - Dig
+     ::damage[Take Down]{source="Drilbur" level=26 opponentLevel=28 opponentStat=39 offensive=false movePower=90 stab=false}
+  :::::
+  :::::pokemon[Zebstrika]
+   - Dig
+     ::damage[Flame Charge]{source="Drilbur" level=27 opponentLevel=30 opponentStat=68 offensive=false movePower=50 stab=false}
+     ::damage[QA/Pursuit]{source="Drilbur" level=27 opponentLevel=30 opponentStat=68 offensive=false movePower=40 stab=false}
+  :::::
+:::::::
+
+**Se soigner** si nécessaire et **utiliser** un Rare Candy pour atteindre le niveau 29.
+:info[**Au niveau 29, apprendre Rock Slide à la place de Metal Claw**]{color=yellow}
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Trubbish]
+   - Dig
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+   - Dig + Slash (range)
+  :::::
+:::::::
