@@ -958,8 +958,8 @@ Se soigner au maximum (apprendre Surf à Audino)
 :::::::
 
 :::::::trainer[Rival 3]
-  :::::pokemon[Unfezant]
-    :::if{source="Drilbur" condition="atk=(x / 15-23 / x)"}
+  :::::pokemon[Unfezant]{info="Plus rapide à 83+ Spe (x/21+/2+)" infoColor="pink"}
+    :::if{source="Drilbur" condition="atk=(x / 15-22 / x)"}
       - Hone Claws jusqu'à la provoc
       - X Defend
       - Si à +0 : Iron Head x2
@@ -985,8 +985,9 @@ Se soigner au maximum (apprendre Surf à Audino)
    - Hone Claws si à +0
    - Si à +1 : Earthquake x2
    - Si à +2 : Iron Head + Earthquake
+     ::damage[Aqua Jet (sans Torrent)]{source="Drilbur" evolution=1 level=39 opponentLevel=41 opponentStat=94 offensive=false movePower=40 combatStages=1 otherPowerModifier=1.1 effectiveness=2 stab=true}
   :::::
-  :::::pokemon[Simisage]
+  :::::pokemon[Simisage]{info="Plus rapide à 89+ Spe (x/28+/8+)" infoColor="pink"}
    - Iron Head
   :::::
 :::::::
