@@ -207,7 +207,7 @@ Se rendre directement à l'arène.
 :::::::trainer[Guitarist Billy Jo]
   :::::pokemon[Venipede]{info="Plus rapide à 21+ Spe (x/25+/18+)" infoColor="pink"}
    - :info[Blaze Ember]{color=red} / Ember x2
-     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=faint}
+     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=error}
   :::::
   :::::pokemon[Koffing]
    - Spam Ember
@@ -220,6 +220,7 @@ Se rendre directement à l'arène.
 :info[**Au niveau 15, apprendre Flame Charge à la place de Defense Curl**]{color=yellow}
 
 **Se soigner** en haut Blaze ou au max. **Equiper** une Baie Pêcha.
+
 *Blaze au niveau 15 est à :calc[floor(hp / 3)]{source="Tepig" level=15} PV*
 
 :::::::trainer[Roughneck Nicky]
@@ -236,7 +237,6 @@ Se rendre directement à l'arène.
 :::::::
 
 **Se soigner** et **Equiper** une Baie Pêcha.
-
 
 *Blaze au niveau 17 est à :calc[floor(hp / 3)]{source="Tepig" level=17} PV*
 
@@ -287,6 +287,8 @@ Prendre le bateau pour Castelia City.
 Parler au clown, désenregistrer le sac de baies, enregistrer le vélo.
 Aller dans le bâtiment juste à gauche, recevoir le Multi Exp., parler au clown puis à la fille pour obtenir le Charcoal.
 
+Se rendre à l'arène, puis au centre pokémon.
+
 :::card{theme="error"}
   ### Centre Pokémon
   ##### Acheter (vendeur du bas) :
@@ -297,3 +299,258 @@ Aller dans le bâtiment juste à gauche, recevoir le Multi Exp., parler au clown
    - 1 Escape Rope (H)
 
 :::
+
+Se rendre sur le quai tout à droite, répondre Oon au Rival.
+Entrer dans les égouts.
+
+**Équiper** le EXP Share et répondre Oui au Rival
+
+:::::::trainer[Team Plasma Grunts]
+  :::::pokemon[Scraggy + Sandile]
+   - Flame Charge Sandile
+   - Flame Charge le pokémon restant
+   - (Ember)
+     ::damage[Venoshock]{source="Tepig" level=18 evolution=1 opponentLevel=16 opponentStat=29 offensive=false movePower=70 stab=false}
+  :::::
+:::::::
+
+Trouver Drilbur. Flame Charge (sauf si niveau 19) + Nest Ball.
+  S'il a utilisé Dig, utiliser Flame Charge au tour où il touche.
+
+:info[**VERIFIER LES IVS ET LE TID EN MÊME TEMPS.**]{color=red}
+
+Retourner dans les égouts, **Enlever** la repousse si on a besoin de Zubat.
+**Récupérer** le X Spé Def.
+
+### Si pas de Pidove attrapé :
+  Attraper Zubat (45%)
+  Nest Ball c'est 92%/90%/87%/85% [Lv 14/15/16/17] max vie.
+
+Utiliser une Escape Rope (ou Dig si Lv 19)
+
+Parler au Clown 2 dans le bâtiment devant la rue de l'arène.
+Se rendre à l'arène.
+
+:::::::::if{source="Drilbur" condition="startingLevel=16" theme="warning"}
+  :::::::trainer[Harlequin Clarence]
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+  :::::::
+  **Echanger Drilbur en première positon !**
+  
+  :::::::trainer[Harlequin Jack]
+    :::::pokemon[Combee]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Swadloon]
+     - Flame Charge
+    :::::
+  :::::::
+
+  :::::::trainer[Harlequin Gary]
+    :::::pokemon[Sewaddle]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Ember x2 (range)
+    :::::
+  :::::::
+
+  :::::::trainer[Harlequin Anders]
+    :::::pokemon[Dwebble]
+     - Metal Claw x3
+    :::::
+    :::::pokemon[Swadloon]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+  :::::::
+  **Se soigner** pour Burgh !
+
+  :::::::trainer[Leader Burgh]
+    :::::pokemon[Swadloon]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Tail Whip
+     - Flame Charge
+     - Echanger Drilbur
+     - Dig
+    :::::
+    :::::pokemon[Leavanny]{info="Plus rapide après FC à 32+ Spe (x/24+/14+)" infoColor="pink"}
+     - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
+     - Echanger Pignite
+     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+       ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
+    :::::
+  :::::::
+:::::::::
+
+:::::::::if{source="Drilbur" condition="startingLevel=17" theme="warning"}
+  :::::::trainer[Harlequin Clarence]
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+  :::::::
+  **Echanger Drilbur en première positon !**
+  
+  :::::::trainer[Harlequin Jack]
+    :::::pokemon[Combee]
+     - Metal Claw x3
+    :::::
+    :::::pokemon[Swadloon]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+  :::::::
+
+  :::::::trainer[Harlequin Gary]
+    :::::pokemon[Sewaddle]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Ember x2 (range)
+    :::::
+  :::::::
+  **Se soigner** pour Burgh !
+
+  :::::::trainer[Leader Burgh]
+    :::::pokemon[Swadloon]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Tail Whip
+     - Flame Charge
+     - Echanger Drilbur
+     - Dig
+    :::::
+    :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
+     - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
+     - Echanger Pignite
+     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+       ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
+    :::::
+  :::::::
+:::::::::
+
+:::::::::if{source="Drilbur" condition="startingLevel=18" theme="warning"}
+  :::::::trainer[Harlequin Clarence]
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+  :::::::
+  
+  :::::::trainer[Harlequin Jack]
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Swadloon]
+     - Flame Charge
+    :::::
+  :::::::
+
+  :::::::trainer[Harlequin Gary]
+    :::::pokemon[Sewaddle]
+     - Flame Charge
+    :::::
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Ember x2 (range)
+    :::::
+  :::::::
+  **Se soigner** pour Burgh !
+
+  :::::::trainer[Leader Burgh]
+    :::::pokemon[Swadloon]
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Tail Whip
+     - Flame Charge
+     - Echanger Drilbur
+     - Dig
+    :::::
+    :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
+     - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
+     - Echanger Pignite
+     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+       ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
+    :::::
+  :::::::
+:::::::::
+
+:::::::::if{source="Drilbur" condition="startingLevel=19" theme="warning"}
+  :::::::trainer[Harlequin Clarence]
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+    :::::pokemon[Sewaddle]
+     - Ember
+    :::::
+  :::::::
+  
+  :::::::trainer[Harlequin Jack]
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Swadloon]
+     - Flame Charge
+    :::::
+  :::::::
+
+  :::::::trainer[Harlequin Gary]
+    :::::pokemon[Sewaddle]
+     - Flame Charge
+    :::::
+    :::::pokemon[Combee]
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Ember x2 (range)
+    :::::
+  :::::::
+  **Se soigner** pour Burgh !
+  **Echanger Drilbur en première positon !**
+
+  :::::::trainer[Leader Burgh]
+    :::::pokemon[Swadloon]
+     - Echanger Pignite
+     - Flame Charge
+    :::::
+    :::::pokemon[Dwebble]
+     - Tail Whip
+     - Flame Charge
+     - Echanger Drilbur
+     - Dig
+    :::::
+    :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
+     - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
+     - Echanger Pignite
+     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+       ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
+    :::::
+  :::::::
+:::::::::
