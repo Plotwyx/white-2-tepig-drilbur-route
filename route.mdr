@@ -1,4 +1,4 @@
-:::tracker{species=Gruikui baseStats="[[65, 63, 45, 45, 45, 45], [90, 93, 55, 70, 55, 55], [110, 123, 65, 100, 65, 65]]"}
+:::tracker{species=Tepig baseStats="[[65, 63, 45, 45, 45, 45], [90, 93, 55, 70, 55, 55], [110, 123, 65, 100, 65, 65]]"}
 5:
   6 -> 0, 0, 0, 1, 0, 0
   7 -> 0, 1, 0, 1, 0, 0
@@ -170,9 +170,9 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
    - Tail Whip
    - Tackle x2
   :::::
-  :::::pokemon[Lillipup]{stats={3, 21, 17, 12, 17, 20}, level=13}
+  :::::pokemon[Lillipup]{stats=[3, 21, 17, 12, 17, 20], level=13}
    - Tail Whip x2
    - Tackle x2
-     ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=3}
+    ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=3}
   :::::
 :::::::
