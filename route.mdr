@@ -801,14 +801,14 @@ H | D B D | H H H D B D H
    - Dig (range si -ATK)
   :::::
   :::::pokemon[Sandslash]
-    :::if(source="Drilbur" condition="spe=(# / # / 20-)")
+    :::if{source="Drilbur" condition="spe=(# / # / 20-)"}
       - Dig
       - Echanger l'esclave vol
       - Soigner Excadrill
       - (Hone Claws si range et il fait Rollout)
       - Dig
     :::
-    :::if(source="Drilbur" condition="spe=(x / x / 21+)")
+    :::if{source="Drilbur" condition="spe=(x / x / 21+)"}
       - Dig x2
       - Si pas la range, revive Excadrill et Dig
     :::
