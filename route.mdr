@@ -661,7 +661,7 @@ Se rendre à l'arène.
   :::::pokemon[Flaaffy]
    - Dig
    - (Mud-Slap)
-     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true effectiveness=2 theme=error}
+     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true effectiveness=2 otherPowerModifier=1.1 theme=error}
   :::::
 :::::::
 
