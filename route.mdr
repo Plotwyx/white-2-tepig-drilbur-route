@@ -579,8 +579,7 @@ Avant Colress, **Soigner** Drilbur, **Repel**.
   :::::pokemon[Klink]
     - Dig
     - (Dig)
-     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true theme=error}
-     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 healthThreshold=54 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true theme=error}
+     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 healthThreshold=54 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true effectiveness=2 theme=error}
      ::damage[Gear Grind]{source="Drilbur" level=21 opponentLevel=23 opponentStat=33 offensive=false movePower=100 stab=true}
   :::::
 :::::::
@@ -615,7 +614,7 @@ Se rendre à l'ancienne arène.
   :::::
 :::::::
 
-:::::if{source="Drilbur" condition="startingLevel=16-18" theme="warning"}
+:::::if{source="Drilbur" condition="startingLevel=16-18"}
   :::card{theme="error"}
     ### Centre Pokémon
     ##### Acheter :
@@ -632,7 +631,7 @@ Se rendre à l'ancienne arène.
   :::
 :::::
 
-:::::if{source="Drilbur" condition="startingLevel=19" theme="warning"}
+:::::if{source="Drilbur" condition="startingLevel=19"}
   :::card{theme="error"}
     ### Centre Pokémon
     ##### Acheter :
@@ -662,7 +661,7 @@ Se rendre à l'arène.
   :::::pokemon[Flaaffy]
    - Dig
    - (Mud-Slap)
-     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true theme=error}
+     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true effectiveness=2 theme=error}
   :::::
 :::::::
 
