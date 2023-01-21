@@ -314,12 +314,12 @@ Entrer dans les égouts.
   :::::
 :::::::
 
-Trouver Drilbur. Flame Charge (sauf si niveau 19) + Nest Ball.
-  S'il a utilisé Dig, utiliser Flame Charge au tour où il touche.
+Trouver Drilbur. Flame Charge (sauf si niveau 19) + Nest Ball. S'il a utilisé Dig, utiliser Flame Charge au tour où il touche.
 
 :info[**VERIFIER LES IVS ET LE TID EN MÊME TEMPS.**]{color=red}
 
 Retourner dans les égouts, **Enlever** la repousse si on a besoin de Zubat.
+
 **Récupérer** le X Spé Def.
 
 ### Si pas de Pidove attrapé :
@@ -373,6 +373,7 @@ Se rendre à l'arène.
      - Echanger Pignite
      - Flame Charge
     :::::
+    :info[**Au niveau 19, apprendre Dig à la place de Fury Swipes**]{color=yellow}
   :::::::
   **Se soigner** pour Burgh !
 
@@ -390,7 +391,7 @@ Se rendre à l'arène.
     :::::pokemon[Leavanny]{info="Plus rapide après FC à 32+ Spe (x/24+/14+)" infoColor="pink"}
      - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
      - Echanger Pignite
-     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+     -:info[Blaze Flame Charge]{color=red} / Flame Charge x2
        ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
     :::::
   :::::::
@@ -428,6 +429,7 @@ Se rendre à l'arène.
     :::::pokemon[Dwebble]
      - Ember x2 (range)
     :::::
+    :info[**Au niveau 19, apprendre Dig à la place de Fury Swipes**]{color=yellow}
   :::::::
   **Se soigner** pour Burgh !
 
@@ -445,7 +447,7 @@ Se rendre à l'arène.
     :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
      - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
      - Echanger Pignite
-     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+     -:info[Blaze Flame Charge]{color=red} / Flame Charge x2
        ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
     :::::
   :::::::
@@ -474,6 +476,7 @@ Se rendre à l'arène.
     :::::pokemon[Sewaddle]
      - Flame Charge
     :::::
+    :info[**Au niveau 19, apprendre Dig à la place de Fury Swipes**]{color=yellow}
     :::::pokemon[Combee]
      - Flame Charge
     :::::
@@ -496,7 +499,7 @@ Se rendre à l'arène.
     :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
      - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
      - Echanger Pignite
-     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+     -:info[Blaze Flame Charge]{color=red} / Flame Charge x2
        ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
     :::::
   :::::::
@@ -549,8 +552,44 @@ Se rendre à l'arène.
     :::::pokemon[Leavanny]{info="Plus rapide après FC avec 32+ Spe (x/24+/14+)" infoColor="pink"}
      - Si HP < Cut x2 : Sacrifier Zubat avant d'envoyer Pignite.
      - Echanger Pignite
-     - :info[Blaze Flame Charge]{color=red} / Flame Charge x2
+     -:info[Blaze Flame Charge]{color=red} / Flame Charge x2
        ::damage[Cut]{source="Tepig" level=20 evolution=1 opponentLevel=24 opponentStat=62 offensive=false movePower=50 stab=false}
+    :::::
+    :info[**Au niveau 22, apprendre Hone Claws à la place de Rapid Spin**]{color=yellow}
+  :::::::
+:::::::::
+
+Se rendre dans le bâtiment en face de l'arène, aller au 2F, parler au dernier clown.
+
+Quitter la ville, répondre Oui + Oui/Non à Colress.
+
+**Récupérer** le super bonbon.
+
+Avant Colress, **Soigner** Drilbur, **Repel**.
+
+:::if{source="Drilbur" condition="startingLevel=18" theme="warning"}
+  **Echanger Drilbur en première positon !**
+:::
+
+:::::::trainer[Colress]
+  :::::pokemon[Magnemite]
+    - Mud-Slap
+    - Dig
+  :::::
+  :::::pokemon[Klink]
+    - Dig
+    - (Dig)
+     ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true theme=error}
+     ::damage[Gear Grind]{source="Drilbur" level=21 opponentLevel=23 opponentStat=33 offensive=false movePower=100 stab=true}
+  :::::
+:::::::
+
+:::::::::if{source="Drilbur" condition="startingLevel=16-18" theme="warning"}
+  Si Sand Force, il est possible de délayer ce combat jusqu'à avoir équipé le Soft Sand et utilisé la protéine pour avoir une range d'OS.
+  :::::::trainer[Lady Lina]
+    :::::pokemon[Liepard]
+     - Dig x2
+    :info[Fury Swipes peut infliger jusqu'à 40 si elle touche 5 fois]{color=blue}
     :::::
   :::::::
 :::::::::
