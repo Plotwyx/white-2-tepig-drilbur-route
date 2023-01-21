@@ -826,19 +826,3 @@ H | D B D | H H H D B D H
      ::damage[Bulldoze]{source="Drilbur" evolution=1 level=32 opponentLevel=33 opponentStat=100 offensive=false movePower=60 effectiveness=2 stab=true}
   :::::
 :::::::
-
-:::::::trainer[Veteran Jerry]
-  :::::pokemon[Fraxure]
-    - X Attack
-    - Sacred Sword x2
-  :::::
-  :::::pokemon[Druddigon]
-    :::if{source="Cobalion" condition="atk=(19+ / # / #)"}
-      - Iron Head
-      - Sacred Sword
-    :::
-    :::if{source="Cobalion" condition="atk=~(19+ / # / #)"}
-      - Sacred Sword x2
-    :::
-  :::::
-:::::::
