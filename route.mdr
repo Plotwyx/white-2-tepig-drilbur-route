@@ -177,11 +177,12 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
   :::::
 :::::::
 
-:::card[### Centre Pokémon]{theme="error"}
+:::card{theme="error"}
+  ### Centre Pokémon
   ##### Acheter :
-   - 4 Repel (► ► ▲)
-   - 7 Super Potions (◄)
-   - 2 Antidotes (▼)
+   - 4 Repel (DDH)
+   - 7 Super Potions (G)
+   - 2 Antidotes (B)
   
   **Déposer** les éventuels esclaves capturés au PC.
 :::
@@ -206,7 +207,7 @@ Se rendre directement à l'arène.
 :::::::trainer[Guitarist Billy Jo]
   :::::pokemon[Venipede]{info="Plus rapide à 21+ Spe (x/25+/18+)" infoColor="pink"}
    - :info[Blaze Ember]{color=red} / Ember x2
-     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true}
+     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=faint}
   :::::
   :::::pokemon[Koffing]
    - Spam Ember
@@ -254,7 +255,6 @@ Se rendre directement à l'arène.
    - Flame Charge
     :::
      ::damage[Tackle/Assurance]{source="Tepig" level=16 opponentLevel=16 opponentStat=26 offensive=false movePower=50 stab=false}
-     ::damage[Smog]{source="Tepig" level=16 opponentLevel=16 special=true opponentStat=22 offensive=false movePower=20 stab=true}
   :::::
   :::::pokemon[Whirlipede]
    - Flame Charge
@@ -263,3 +263,37 @@ Se rendre directement à l'arène.
      ::damage[Venoshock]{source="Tepig" level=17 opponentLevel=18 special=true opponentStat=21 offensive=false movePower=65 stab=true}
   :::::
 :::::::
+
+Pokewood :
+ - Spam A+B
+ - Tourner un Film, Equipe d'Emprunt (réponse du haut les deux fois)
+ - Ice Punch
+ - Oui pour sauvegarder
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Patrat]
+   - Flame Charge :info[(range sauf si (x/x/12+))]{color=blue}
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Purrloin]
+   - Flame Charge :info[(range sauf si (x/x/29+))]{color=blue}
+  :::::
+:::::::
+
+Prendre le bateau pour Castelia City.
+
+Parler au clown, désenregistrer le sac de baies, enregistrer le vélo.
+Aller dans le bâtiment juste à gauche, recevoir le Multi Exp., parler au clown puis à la fille pour obtenir le Charcoal.
+
+:::card{theme="error"}
+  ### Centre Pokémon
+  ##### Acheter (vendeur du bas) :
+   - 4 Nest Ball
+  ##### Vendre : Charcoal
+  ##### Acheter (vendeur du haut)
+   - 14 Repels (DDH)
+   - 1 Escape Rope (H)
+
+:::
