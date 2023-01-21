@@ -813,16 +813,180 @@ H | D B D | H H H D B D H
       - Si pas la range, revive Excadrill et Dig
     :::
     :info[Dig 2HKO vs Sandslash : <br/>]{color=red}
-    :info[5- / x / x			  82–84			2.73% <br/>]{color=red}
-    :info[6–14 / x / x			85–87			17.97% <br/>]{color=red}
-    :info[15-27 / x / x			88–90			47.27% <br/>]{color=red}
-    :info[28+ / 2- / x			  91–93			69.14% <br/>]{color=red}
-    :info[x / 3–14 / x			94–96			91.14% <br/>]{color=red}
-    :info[x / 12-17 / x			97–98			98.44% <br/>]{color=red}
-    :info[x / 18+ / 0+			99+			  100% <br/>]{color=red}
+    :info[5- / x / x        82–84     2.73% <br/>]{color=red}
+    :info[6–14 / x / x      85–87     17.97% <br/>]{color=red}
+    :info[15-27 / x / x     88–90     47.27% <br/>]{color=red}
+    :info[28+ / 2- / x      91–93     69.14% <br/>]{color=red}
+    :info[x / 3–14 / x      94–96     91.14% <br/>]{color=red}
+    :info[x / 12-17 / x     97–98     98.44% <br/>]{color=red}
+    :info[x / 18+ / 0+      99+       100% <br/>]{color=red}
   :::::
   :::::pokemon[Excadrill]{info="Plus rapide à 70+ Spe (x/25+/6+)" infoColor="pink"}
    - Dig
      ::damage[Bulldoze]{source="Drilbur" evolution=1 level=32 opponentLevel=33 opponentStat=100 offensive=false movePower=60 effectiveness=2 stab=true}
+  :::::
+:::::::
+
+Se rendre au PWT.
+
+:::::::trainer[Hugh]
+  :::::pokemon[Dewott]
+   - Dig
+  :::::
+  :::::pokemon[Simisage]
+   - Iron Head
+  :::::
+  :::::pokemon[Tranquill]
+   - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Cheren]
+  :::::pokemon[Stoutland]
+   - Hone Claws si Intimidé
+   - Iron Head x2
+  :::::
+  :::::pokemon[Cinccino]
+   - Iron Head
+  :::::
+  :::::pokemon[Watchog]
+   - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Colress]
+  :::::pokemon[Magneton]
+   - Dig
+   - (Iron Head)
+  :::::
+  :::::pokemon[Elgyem]
+   - Iron Head
+  :::::
+  :::::pokemon[Klink]
+   - Dig
+  :::::
+:::::::
+
+:::if{source="Drilbur" condition="(startingLevel=16-18 && (spe=(19-/9-11/4-) || spe=(x/20-23/11-13) || spe=(x/30+/x))) || (startingLevel=19 && (spe=(19-/9-10/3-) || spe=(x/20-22/10-12) || spe=(x/30-31/x)))"}
+  **Acheter** un Carbos au PWT.
+:::
+
+:::if{source="Drilbur" condition="(startingLevel=16-18 && (spe=(20+/8-/5-10) || spe=(x/12-19/14+) || spe=(x/24-29/x))) || (startingLevel=19 && (spe=(20+/8-/4-9) || spe=(x/11-19/13+) || spe=(x/23-29/x)))"}
+  **Acheter** une Protein au PWT.
+:::
+
+Aller à la frégate Plasma.
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Koffing]
+   - Iron Head x2
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Trubbish]
+   - Iron Head
+  :::::
+:::::::
+
+**Équiper** le EXP Share et **Super Repel**
+
+:::::::trainer[Team Plasma Grunts (avec Cheren)]
+  :::::pokemon[Grimer, Krokorok, Golbat, Liepard]
+   - Iron Head Grimer
+   - Iron Head Krokorok
+   - Iron Head Liepard
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunts (avec Hugh)]
+  :::::pokemon[Grimer, Raticate, Koffing, Watchog]
+   - Iron Head Grimer
+   - Iron Head Watchog
+   - Iron Head Raticate
+  :::::
+:::::::
+
+Partir sur la route 6.
+
+:::::::trainer[Scientist Jacques]
+  :::::pokemon[Deerling]
+   - Iron Head
+  :::::
+:::::::
+
+**Récupérer** la Protéin cachée.
+
+**Récupérer** l'Elixir et **obtenir** le Luck Egg du professeur Juniper à la tour.
+
+**Équiper** le Lucky Egg, **utiliser** les vitamines et **apprendre** Strength, Surf et Fly.
+
+:info[**GARDER TAIL WHIP SUR PIGNITE**]{color=red}
+
+Se rendre à l'arène. Ne plus actualiser les repousses si on a pas de surfer et qu'on a besoin d'Audino.
+
+:::::::trainer[Leader Skyla]
+  :::::pokemon[Swoobat]
+   - X Speed
+   - Hone Claws x2
+   - Iron Head x2
+  :::::
+  :info[**Au niveau 36, apprendre Earthquake à la place de Dig**]{color=yellow}
+  :::::pokemon[Swanna]
+   - Rock Slide
+  :::::
+  :::::pokemon[Skarmory]
+   - Iron Head
+   - Iron Head
+   - Rock Slide
+  :::::
+:::::::
+
+Prendre l'avion.
+
+Capturer Audino dans une herbe mouvante si on a pas eu de surfer plus tôt. (Utiliser la Master Ball).
+
+Se soigner au maximum (apprendre Surf à Audino)
+
+:::::::trainer[Ace Trainer Cora & Ace Trainer Ray]
+  :::::pokemon[Vibrava, Camerupt, Grumpig et Drifblim]
+   - Hone Claws
+   - Iron Head Vibrava
+   - Earthquake
+   - Rock Slide
+  :::::
+:::::::
+
+:::::::trainer[Rival 3]
+  :::::pokemon[Unfezant]
+    :::if{source="Drilbur" condition="atk=(x / 15-23 / x)"}
+      - Hone Claws jusqu'à la provoc
+      - X Defend
+      - Si à +0 : Iron Head x2
+      - Si à +1 : Rock Slide (range)
+      - Si à +2 : Rock Slide
+    :::
+    :::if{source="Drilbur" condition="atk=(x / 23+ / #)"}
+      - Hone Claws jusqu'à la provoc
+      - X Defend
+      - Si à +0 : Iron Head x2
+      - Si à +1 : Rock Slide (range)
+      - Si à +2 : Iron Head
+    :::
+    :::if{source="Drilbur" condition="atk=(# / 14- / x)"}
+      - Hone Claws jusqu'à la provoc
+      - X Defend
+      - Si à +0 : Rock Slide + Iron Head
+      - Si à +1 : Rock Slide (range)
+      - Si à +2 : Rock Slide
+    :::
+  :::::
+  :::::pokemon[Samurott]
+   - Hone Claws si à +0
+   - Si à +1 : Earthquake x2
+   - Si à +2 : Iron Head + Earthquake
+  :::::
+  :::::pokemon[Simisage]
+   - Iron Head
   :::::
 :::::::
