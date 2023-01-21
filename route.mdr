@@ -176,3 +176,21 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
      ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 opponentLevel=13 opponentStat=21 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=3}
   :::::
 :::::::
+
+:::card[Centre Pokémon]{theme="error"}
+  Acheter :
+   - 4 Repel (→ → ↑)
+   - 7 Super Potions (←)
+   - 2 Antidotes (↓)
+  
+  **Déposer** les éventuels esclaves capturés au PC.
+:::
+
+Utiliser une Baie Oran si à portée d'un QA de Riolu.
+Repel.
+
+:::::::trainer[Hiker Jerome]
+  :::::pokemon[Riolu]
+   :info[- Blaze Ember]{color=red} / Tackle x2
+  :::::
+:::::::
