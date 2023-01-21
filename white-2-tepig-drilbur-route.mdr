@@ -95,7 +95,9 @@ Prendre Tepig (au milieu)
   :::::
 :::::::
 
-:info[Tuer le premier pokémon rencontré pour avoir l'xp nécessaire pour l'arène.]{color=green}
+:::card{theme="info"}
+Tuer le premier pokémon rencontré pour avoir l'xp nécessaire pour l'arène.
+:::
 
 :::::::trainer[Youngster Terrell]
   :::::pokemon[Patrat]
@@ -110,5 +112,67 @@ Prendre Tepig (au milieu)
   :::::
 :::::::
 
-Attraper Pidove si on le rencontre (25% sur la Route 20, 5% dans le Ranch)
+Attraper Pidove si on le rencontre. (25% sur la Route 20, 5% dans le Ranch)
 
+:::::::trainer[Rival 2]
+  :::::pokemon[Oshawott]
+   - Tail Whip
+   - Tackles
+  :::::
+:::::::
+
+Attraper Azurill ou Psyduck si on le rencontre dans le ranch.
+
+Ramasser X Attack dans le ranch et X Speed à côté de la maison d'Alder.
+
+:::::::trainer[School Kid Seymour]
+  :::::pokemon[Pansage]
+   - Ember x2
+  :::::
+:::::::
+
+:::::::trainer[School Kid Cassie]
+  :::::pokemon[Panpour]
+   - Tail Whip
+   - Tackle x2
+  :::::
+:::::::
+
+Aller à l'arène, récupérer le Défense + auprès du PNJ dans l'école.
+
+:::::::trainer[Youngster Pedro]
+  :::::pokemon[Patrat]
+   - Tackle x2
+   - Ember
+  :::::
+  :::::pokemon[Lillipup]
+   - Tackle x3
+  :::::
+:::::::
+
+:::::::trainer[Lass Serena]
+  :::::pokemon[Lillipup]
+   - Tackle x3
+  :::::
+  :::::pokemon[Patrat]
+   - Tackle x2
+   - (Ember)
+  :::::
+:::::::
+
+:info[**Au niveau 13, apprendre Defense Curl à la place de Odor Sleuth**]{color=yellow}
+
+__Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
+
+:::::::trainer[Cheren]
+  :::::pokemon[Patrat]
+   - Defense Curl
+   - Tail Whip
+   - Tackle x2
+  :::::
+  :::::pokemon[Lillipup]{stats={3, 21, 17, 12, 17, 20}, level=13}
+   - Tail Whip x2
+   - Tackle x2
+    ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=+3}
+  :::::
+:::::::
