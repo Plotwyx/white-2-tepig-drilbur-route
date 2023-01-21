@@ -802,27 +802,43 @@ H | D B D | H H H D B D H
   :::::
   :::::pokemon[Sandslash]
     :::if(source="Drilbur" condition="spe=(# / # / 20-)")
-       - Dig
-       - Echanger l'esclave vol
-       - Soigner Excadrill
-       - (Hone Claws si range et il fait Rollout)
-       - Dig
+      - Dig
+      - Echanger l'esclave vol
+      - Soigner Excadrill
+      - (Hone Claws si range et il fait Rollout)
+      - Dig
     :::
     :::if(source="Drilbur" condition="spe=(x / x / 21+)")
-       - Dig x2
-       - Si pas la range, revive Excadrill et Dig
+      - Dig x2
+      - Si pas la range, revive Excadrill et Dig
     :::
-    :info[Dig 2HKO vs Sandslash :]{color=red}
-    :info[5- / x / x			  82–84			2.73%]{color=red}
-    :info[6–14 / x / x			85–87			17.97%]{color=red}
-    :info[15-27 / x / x			88–90			47.27%]{color=red}
-    :info[28+ / 2- / x			  91–93			69.14%]{color=red}
-    :info[x / 3–14 / x			94–96			91.14%]{color=red}
-    :info[x / 12-17 / x			97–98			98.44%]{color=red}
-    :info[x / 18+ / 0+			99+			  100%]{color=red}
+    :info[Dig 2HKO vs Sandslash : <br/>]{color=red}
+    :info[5- / x / x			  82–84			2.73% <br/>]{color=red}
+    :info[6–14 / x / x			85–87			17.97% <br/>]{color=red}
+    :info[15-27 / x / x			88–90			47.27% <br/>]{color=red}
+    :info[28+ / 2- / x			  91–93			69.14% <br/>]{color=red}
+    :info[x / 3–14 / x			94–96			91.14% <br/>]{color=red}
+    :info[x / 12-17 / x			97–98			98.44% <br/>]{color=red}
+    :info[x / 18+ / 0+			99+			  100% <br/>]{color=red}
   :::::
   :::::pokemon[Excadrill]{info="Plus rapide à 70+ Spe (x/25+/6+)" infoColor="pink"}
    - Dig
      ::damage[Bulldoze]{source="Drilbur" evolution=1 level=32 opponentLevel=33 opponentStat=100 offensive=false movePower=60 effectiveness=2 stab=true}
+  :::::
+:::::::
+
+:::::::trainer[Veteran Jerry]
+  :::::pokemon[Fraxure]
+    - X Attack
+    - Sacred Sword x2
+  :::::
+  :::::pokemon[Druddigon]
+    :::if{source="Cobalion" condition="atk=(19+ / # / #)"}
+      - Iron Head
+      - Sacred Sword
+    :::
+    :::if{source="Cobalion" condition="atk=~(19+ / # / #)"}
+      - Sacred Sword x2
+    :::
   :::::
 :::::::
