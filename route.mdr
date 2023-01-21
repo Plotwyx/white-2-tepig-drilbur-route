@@ -711,7 +711,118 @@ Se rendre à l'arène.
 :::::::
 
 :::::::trainer[Team Plasma Grunt]
-  :::::pokemon[Watchog]
+  :::::pokemon[Watchog]{info="Plus rapide à 51+ Spe (x/20+/6+)" infoColor="pink"}
+  La confusion inflige environ 18 dégâts.
    - Dig + Slash (range)
+  :::::
+:::::::
+
+:::::::trainer[Motorcyclist Charles]
+  :::::pokemon[Archen, Sigilyph et Tirtouga]
+   - Rock Slide
+   - X Attack
+   - X Sp.Def
+   - Slash pour terminer Sigilyph si <35%
+     ::damage[Tirtouga Aqua Jet]{source="Drilbur" level=30 opponentLevel=26 opponentStat=45 offensive=false movePower=40 stab=true effectiveness=2}
+  :::::
+:::::::
+
+:::::if{source="Drilbur" condition="startingLevel=16-18"}
+  :::card{theme="error"}
+    ### Centre Pokémon
+    ##### Acheter :
+    - 4 revives (DHH)
+    - 11 Super Repels (DB)
+
+    ##### Soigner l'équipe au PC.
+    - Récupérer Pignite si on a l'a déposé.
+
+  :::
+:::::
+
+:::::if{source="Drilbur" condition="startingLevel=19"}
+  :::card{theme="error"}
+    ### Centre Pokémon
+    ##### Acheter :
+    - 3 revives (DHH)
+    - 11 Super Repels (DB)
+
+    ##### Soigner l'équipe au PC.
+    - Récupérer Pignite si on a l'a déposé.
+
+  :::
+:::::
+
+:::::::trainer[Rood]
+  :::::pokemon[Herdier]
+   - Hone Claws
+   - Rock Slide/Heal jusqu'à range de kill avec Dig (~65% pour 0IV neutre)
+   - Dig
+     ::damage[Take Down]{source="Drilbur" level=30 opponentLevel=27 opponentStat=51 offensive=false movePower=90 stab=true}
+  :::::
+  :::::pokemon[Swoobat]
+   - Rock Slide
+   - Slash
+     ::damage[Air Cutter]{source="Drilbur" level=30 opponentLevel=27 special=true opponentStat=49 offensive=false movePower=55 stab=true}
+  :::::
+:::::::
+
+Ne pas prendre Zorua.
+
+:info[**Aller voir le Move Tutor et apprendre Iron Head à la place de Slash**]{color=yellow}
+
+Se rendre à l'arène :
+
+H | D B D | H H H D B D H
+
+:::::::trainer[Worker Noel]
+  :::::pokemon[Baltoy]
+   - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Worker Tavarius]
+  :::::pokemon[Drilbur]
+   - Iron Head
+  :::::
+  :::::pokemon[Sandile]
+   - Iron Head
+  :::::
+  :::::pokemon[Baltoy]
+   - Iron Head
+  :::::
+:::::::
+
+**Se soigner au dessus de 65%**
+
+:::::::trainer[Leader Clay]
+  :::::pokemon[Krokorok]
+   - Sacrifier l'esclave Surf/Pignite
+   - Dig (range si -ATK)
+  :::::
+  :::::pokemon[Sandslash]
+     :::if(source="Drilbur" condition="spe=(# / # / 20-)")
+       - Dig
+       - Echanger l'esclave vol
+       - Soigner Excadrill
+       - (Hone Claws si range et il fait Rollout)
+       - Dig
+     :::
+     :::if(source="Drilbur" condition="spe=(x / x / 21+)")
+       - Dig x2
+       - Si pas la range, revive Excadrill et Dig
+     :::
+    :info[Dig 2HKO vs Sandslash :]{color=red}
+    :info[5- / x / x			  82–84			2.73%]{color=red}
+    :info[6–14 / x / x			85–87			17.97%]{color=red}
+    :info[15-27 / x / x			88–90			47.27%]{color=red}
+    :info[28+ / 2- / x			  91–93			69.14%]{color=red}
+    :info[x / 3–14 / x			94–96			91.14%]{color=red}
+    :info[x / 12-17 / x			97–98			98.44%]{color=red}
+    :info[x / 18+ / 0+			99+			  100%]{color=red}
+  :::::
+  :::::pokemon[Excadrill]{info="Plus rapide à 70+ Spe (x/25+/6+)" infoColor="pink"}
+   - Dig
+     ::damage[Bulldoze]{source="Drilbur" evolution=1 level=32 opponentLevel=33 opponentStat=100 offensive=false movePower=60 effectiveness=2 stab=true}
   :::::
 :::::::
