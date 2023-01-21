@@ -177,8 +177,8 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
   :::::
 :::::::
 
-:::card[Centre Pokémon]{theme="error"}
-  Acheter :
+:::card[###Centre Pokémon]{theme="error"}
+  #####Acheter :
    - 4 Repel (→ → ↑)
    - 7 Super Potions (←)
    - 2 Antidotes (↓)
@@ -191,6 +191,7 @@ Repel.
 
 :::::::trainer[Hiker Jerome]
   :::::pokemon[Riolu]
-   :info[- Blaze Ember]{color=red} / Tackle x2
+   - :info[Blaze Ember]{color=red} / Tackle x2
+     ::damage[Quick Attack]{source="Tepig" level=14 opponentLevel=11 opponentStat=29 offensive=false movePower=40 stab=false}
   :::::
 :::::::
