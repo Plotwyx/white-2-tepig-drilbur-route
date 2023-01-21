@@ -164,7 +164,7 @@ Aller à l'arène, récupérer le Défense + auprès du PNJ dans l'école.
 
 __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
 
-:::::::trainer[Cheren]
+:::::::trainer[Leader Cheren]
   :::::pokemon[Patrat]
    - Defense Curl
    - Tail Whip
@@ -177,11 +177,11 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
   :::::
 :::::::
 
-:::card[###Centre Pokémon]{theme="error"}
-  #####Acheter :
-   - 4 Repel (→ → ↑)
-   - 7 Super Potions (←)
-   - 2 Antidotes (↓)
+:::card[### Centre Pokémon]{theme="error"}
+  ##### Acheter :
+   - 4 Repel (► ► ▲)
+   - 7 Super Potions (◄)
+   - 2 Antidotes (▼)
   
   **Déposer** les éventuels esclaves capturés au PC.
 :::
@@ -192,6 +192,74 @@ Repel.
 :::::::trainer[Hiker Jerome]
   :::::pokemon[Riolu]
    - :info[Blaze Ember]{color=red} / Tackle x2
-     ::damage[Quick Attack]{source="Tepig" level=14 opponentLevel=11 opponentStat=29 offensive=false movePower=40 stab=false}
+     ::damage[Quick Attack]{source="Tepig" level=14 opponentLevel=11 opponentStat=22 offensive=false movePower=40 stab=false}
+  :::::
+:::::::
+
+**Equiper** une baie Pecha dans le menu du Spinner.
+
+Se rendre directement à l'arène.
+
+
+*Blaze au niveau 14 est à :calc[floor(hp / 3)]{source="Tepig" level=14} PV*
+
+:::::::trainer[Guitarist Billy Jo]
+  :::::pokemon[Venipede]{info="Plus rapide à 21+ Spe (x/25+/18+)" infoColor="pink"}
+   - :info[Blaze Ember]{color=red} / Ember x2
+     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true}
+  :::::
+  :::::pokemon[Koffing]
+   - Spam Ember
+   - Si on est en avance en XP : Tail Whip + Flame Charge
+     ::damage[Tackle/Assurance vs +0 Tepig]{source="Tepig" level=14 opponentLevel=14 opponentStat=23 offensive=false movePower=50 stab=false}
+     ::damage[Tackle/Assurance vs -2 Tepig]{source="Tepig" level=14 opponentLevel=14 opponentStat=23 offensive=false movePower=50 stab=false combatStages=-2}
+  :::::
+:::::::
+
+:info[**Au niveau 15, apprendre Flame Charge à la place de Defense Curl**]{color=yellow}
+
+**Se soigner** en haut Blaze ou au max. **Equiper** une Baie Pêcha.
+*Blaze au niveau 15 est à :calc[floor(hp / 3)]{source="Tepig" level=15} PV*
+
+:::::::trainer[Roughneck Nicky]
+  :::::pokemon[Grimer]
+   - Tail Whip :info[(sauf si Blaze)]{color=red}
+   - FC x2 (x3)
+     ::damage[Pound]{source="Tepig" level=15 opponentLevel=14 opponentStat=27 offensive=false movePower=40 stab=false}
+  :::::
+  :::::pokemon[Koffing]
+   - Spam Ember
+   - Si on a une ATK largement supérieure à Sp.ATK : Spam Flame Charge à la place
+     ::damage[Tackle/Assurance vs +0 Tepig]{source="Tepig" level=15 opponentLevel=14 opponentStat=23 offensive=false movePower=50 stab=false}
+  :::::
+:::::::
+
+**Se soigner** et **Equiper** une Baie Pêcha.
+
+
+*Blaze au niveau 17 est à :calc[floor(hp / 3)]{source="Tepig" level=17} PV*
+
+:::::::trainer[Leader Roxie]
+  :::::pokemon[Koffing]
+    :::if{source="Tepig" condition="atk=(x / 29+ / 16+)"}
+   - Tail Whip
+   - Flame Charge
+   - Tackle
+   - Flame Charge
+    :::
+    :::if{source="Tepig" condition="atk=(# / 28- / 15-)"}
+   - Tail Whip
+   - Flame Charge
+   - Flame Charge
+   - Flame Charge
+    :::
+     ::damage[Tackle/Assurance]{source="Tepig" level=16 opponentLevel=16 opponentStat=26 offensive=false movePower=50 stab=false}
+     ::damage[Smog]{source="Tepig" level=16 opponentLevel=16 special=true opponentStat=22 offensive=false movePower=20 stab=true}
+  :::::
+  :::::pokemon[Whirlipede]
+   - Flame Charge
+   - Tail Whip (Skip si en Blaze)
+   - Flame Charge
+     ::damage[Venoshock]{source="Tepig" level=17 opponentLevel=18 special=true opponentStat=21 offensive=false movePower=65 stab=true}
   :::::
 :::::::
