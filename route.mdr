@@ -1027,3 +1027,170 @@ Se soigner au maximum (apprendre Surf à Audino)
    - Iron Head
   :::::
 :::::::
+
+**Ramasser** le Max Ether.
+
+**Se soigner si à portée de Ice Beam !**
+
+::damage[Cryogonal Ice Beam]{source="Drilbur" evolution=1 level=41 opponentLevel=42 special=true opponentStat=82 offensive=false movePower=95 stab=true}
+
+:::::::trainer[Zinzolin & Team Plasma Grunt]
+  :::::pokemon[Cryogonal, Golba, Sneasel and Garbodor]
+   - Hone Claws
+   - Rock Slide
+   - Earthquake
+  :::::
+:::::::
+
+:info[**Au niveau 42, apprendre Swords Dance à la place de Hone Claws**]{color=yellow}
+
+
+**Ramasser** le Rare Candy caché. (sauf si déjà niveau 43)
+
+:::if{source="Drilbur" condition="(startingLevel=16-18 && spe=(#/#/14-)) || (startingLevel=19 && spe=(#/#/15-))"}
+  **Ramasser** le Carbos au Village Bridge.
+:::
+
+
+:::card{theme="error"}
+  ### Shopping Mall Nine :
+  ##### Acheter (en haut à droite) :
+  - 3 X Speed
+  - 2 X Attack
+  - 1 X Defend
+  - 1 Guard Spec.
+
+  :::if{source="Drilbur" condition="spe=(x/28-29/8-9)"}
+  ##### Acheter (en haut à gauche) 1 Carbos. 
+  :::
+
+  ##### Acheter (1er étage à gauche):
+  - 11 Hyper Potions (BB)
+  - 4 Full Heals (DB)
+  - 1 Escape Rope (sauf si on a gardé celle de Castelia) (D)
+  - au moins 8 Max Repels (DH)
+
+:::
+
+**Utiliser le Rare Candy et les Carbos.**
+
+Aller à l'arène.
+
+:::::::trainer[Veteran Lucius]
+  :::::pokemon[Fraxure]
+    :::if{source="Drilbur" condition="atk=(28- / x / x)"}
+      - Iron Head
+      - Earthquake
+    :::
+    :::if{source="Drilbur" condition="atk=(29+ / # / #)"}
+      - Iron Head x2
+    :::
+   :info["+1 Dragon Claw fait environ 65"]{color=blue}
+  :::::
+:::::::
+
+Dresseur de droite.
+
+:::::::trainer[Veteran Jerry]
+  :::::pokemon[Fraxure]
+   - Swords Dance
+   - Earthquake
+   :info["+1 Dual Chop fait environ 75"]{color=blue}
+  :::::
+  :::::pokemon[Druddigon]
+   - Earthquake
+  :::::
+:::::::
+
+**METTRE EXCADRILL EN SLOT 2, ET L'ESCLAVE VOL EN 1 OU 3**
+
+Dresseur de droite.
+
+:::::::trainer[Veteran Ron]
+  :::::pokemon[Fraxure, Druddigon et Axew]
+   - X Attack
+   - Swords Dance
+   - Heal si nécessaire
+   - T2 : Earthquake
+   :info["Revenge fait environ 85"]{color=blue}
+  :::::
+:::::::
+
+:::::::trainer[Leader Drayden]
+  :::::pokemon[Druddigon]
+    :::if{source="Drilbur" condition="spe=(x / x / 16+)"}
+      - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
+      - Iron Head
+    :::
+    :::if{source="Drilbur" condition="spe=(# / # / 15-)"}
+      - X Speed 
+      - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
+      - Iron Head
+    :::
+     ::damage[Revenge]{source="Drilbur" evolution=1 level=45 opponentLevel=46 opponentStat=110 offensive=false effectiveness=2 movePower=60 stab=false}
+  :::::
+  :::::pokemon[Flygon]
+   - Iron Head
+  :::::
+  :::::pokemon[Haxorus]
+   - Iron Head
+  :::::
+:::::::
+
+**REMETTRE EXCADRILL EN SLOT 1 !!!**
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+   - Earthquake
+  :::::
+  :::::pokemon[Muk]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Golbat]
+   - Rock Slide
+  :::::
+  :::::pokemon[Garbodor]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Seviper]
+   - Swords Dance
+   - Iron Head
+  :::::
+  :::::pokemon[Weezing]
+   - Iron Head
+  :::::
+:::::::
+
+:::if{source="Drilbur" condition="spe=(x / 22+ / 2+)" theme="warning"}
+  Se soigner si à portée de Ice Shard :
+  ::damage[Weavile Ice Shard]{source="Drilbur" evolution=1 level=51 opponentLevel=48 opponentStat=115 offensive=false movePower=40 stab=true}
+:::
+:::if{source="Drilbur" condition="spe=(# / 21- / 1-)" theme="warning"}
+  Se soigner si à portée de Ice Shard + Ice Beam :
+  ::damage[Weavile Ice Shard]{source="Drilbur" evolution=1 level=51 opponentLevel=48 opponentStat=115 offensive=false movePower=40 stab=true}
+  ::damage[Cryogonal Ice Beam]{source="Drilbur" evolution=1 level=50 opponentLevel=46 special=true opponentStat=100 offensive=false movePower=95 stab=true}
+:::
+
+:::::::trainer[Zinzolin]
+  :::::pokemon[Cryogonal]
+    :::if{source="Drilbur" condition="spe=(x / 22+ / 2+)"}
+      - Iron Head
+    :::
+    :::if{source="Drilbur" condition="spe=(# / 21- / 1-)"}
+      - X Speed
+      - Iron Head
+    :::
+  :::::
+  :::::pokemon[Cryogonal]
+   - Iron Head
+  :::::
+  :::::pokemon[Weavile]
+   - Iron Head
+  :::::
+:::::::
