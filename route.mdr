@@ -697,7 +697,7 @@ Se rendre à l'arène.
   :::::pokemon[Flaaffy]
    - Dig
    - (Mud-Slap)
-     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true effectiveness=2 otherPowerModifier=1.1 theme=error}
+     ::damage[Dig vs Flaaffy]{source="Drilbur" level=23 healthThreshold=74 opponentLevel=27 opponentStat=37 offensive=true movePower=80 stab=true effectiveness=2 otherPowerModifier=1.2 theme=error}
   :::::
 :::::::
 
@@ -1021,7 +1021,7 @@ Se soigner au maximum (apprendre Surf à Audino)
    - Hone Claws si à +0
    - Si à +1 : Earthquake x2
    - Si à +2 : Iron Head + Earthquake
-     ::damage[Aqua Jet (sans Torrent) vs +1 Excadrill]{source="Drilbur" evolution=1 level=39 opponentLevel=41 opponentStat=94 offensive=false movePower=40 combatStages=1 otherPowerModifier=1.1 effectiveness=2 stab=true}
+     ::damage[Aqua Jet (sans Torrent) vs +1 Excadrill]{source="Drilbur" evolution=1 level=39 opponentLevel=41 opponentStat=94 offensive=false movePower=40 combatStages=1 otherPowerModifier=1.2 effectiveness=2 stab=true}
   :::::
   :::::pokemon[Simisage]{info="Plus rapide à 89+ Spe (x/28+/8+)" infoColor="pink"}
    - Iron Head
