@@ -1258,3 +1258,224 @@ Dresseur de droite.
    - Iron Head
   :::::
 :::::::
+
+:::::::trainer[Team Plasma Shadow Triad]
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Absol]
+   - Earthquake
+  :::::
+:::::::
+
+**Voler à Undella** et prendre le tunnel sous-marin.
+
+Aller chercher Marlon.
+
+:::::::trainer[Ace Trainer Doyle]
+  :::::pokemon[Floatzel]
+   - Earthquake
+  :::::
+  :::::pokemon[Mantine]
+   - Rock Slide
+  :::::
+:::::::
+
+**Heal** si nécessaire, (dans ce cas, **Max Repel** en plus)
+
+:::::::trainer[Ace Trainer Sable]
+  :::::pokemon[Golduck]
+   - Swords Dance
+   - Earthquake
+  :::::
+  :::::pokemon[Starmie]
+   - Earthquake
+  :::::
+:::::::
+
+**Heal** si nécessaire, (dans ce cas, **Max Repel** en plus)
+
+:::::::trainer[Leader Marlon]
+  :::::pokemon[Carracosta]
+   - Iron Head
+   - Earthquake
+   :info[Sacrifier l'esclave Vol si Scald a brûlé]{color=blue}
+  :::::
+  :::::pokemon[Wailord]
+   - Swords Dance
+   - Earthquake
+   :info[Se soigner si Scald a brûlé]{color=blue}
+  :::::
+  :::::pokemon[Jellicent]
+   - Earthquake
+  :::::
+:::::::
+
+**Max Repel** si ce n'est pas encore fait.
+
+Aller chercher la Machine de Colress auprès de Terrakion, et revenir.
+
+:::::::trainer[Swimmer]
+  :::::pokemon[Octillery]
+   - Earthquake
+  :::::
+:::::::
+
+si on se fait avoir par le spinner à la place : EQ + RS
+
+**Max Ether** Earthquake, **Soigner** presque au max (Revive le surfer si tous les esclaves sont morts)
+
+:::::::trainer[Pkmn Ranger Mikiko]
+  :::::pokemon[Vibrava]
+   - Iron Head
+  :::::
+  :::::pokemon[Gligar]
+   - Iron Head x2
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Watchog]
+   - Earthquake
+  :::::
+  :::::pokemon[Garbodor]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunts]
+  :::::pokemon[Golbat, Drapion, Seviper et Garbodor]
+   - Iron Head Golbat
+   - Earthquake
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunt & Zinzolin]
+  :::::pokemon[Liepard, Watchog, Scolipede, Cryogonal, Cryogonal, Weavile]
+   - Iron Head Cryogonal
+   - Iron Head Cryogonal
+   - Rock Slide Weavile+Scolipede
+  :::::
+:::::::
+
+Voler à Humilau City.
+
+Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Escape Rope, et se rendre au centre.
+
+:::::::trainer[Team Plasma Grunt]
+  :::::pokemon[Weezing]
+   - Sacrifier tous les esclaves sauf 1
+   - Swords Dance
+   - Iron Head
+  :::::
+  :::::pokemon[Muk]
+   - Iron Head si à +2
+   - Earthquake si à +0
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Grunts]
+  :::::pokemon[Trubbish, Golbat, Garbodor, Scraggy, Whirlipede et Scrafty]
+   - Earthquake
+   - X Attack
+   - Iron Head Scrafty
+   - Rock Slide
+   - Iron Head
+  :::::
+:::::::
+
+**Ramasser** le max elixir. **Heal** et **utiliser** le max elixir.
+
+:info[Faire attention à conserver une PP de Iron Head pour Kyurem-W]{color=red}
+
+:::::::trainer[Team Plasma Zinzolin]
+  :::::pokemon[Cryogonal]
+   - Iron Head
+  :::::
+  :::::pokemon[Cryogonal]
+   - Iron Head
+  :::::
+  :::::pokemon[Weavile]
+   - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Colress]
+  :::::pokemon[Magneton]
+   - Iron Head
+   - Earthquake
+  :::::
+  :::::pokemon[Metang]
+   - Swords Dance
+   - Iron Head
+   - Earthquake
+  :::::
+  :::::pokemon[Beheeyem]
+   - Iron Head
+  :::::
+  :::::pokemon[Magnezone]
+   - Iron Head x2
+  :::::
+  :::::pokemon[Klinklang]
+   - Earthquake
+   :info[Klinklang Giga Impact inflige jusqu'à 85 de dégâts maximum]{color=blue}
+  :::::
+:::::::
+
+**Se soigner si dans le rouge**
+
+:::::::trainer[Team Plasma Shadow]
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
+  :::::
+  :::::pokemon[Absol]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Shadow]
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
+  :::::
+  :::::pokemon[Banette]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Team Plasma Shadow]
+  :::::pokemon[Pawniard]
+   - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
+  :::::
+  :::::pokemon[Accelgor]
+   - Earthquake
+  :::::
+:::::::
+
+:::::pokemon[Kyurem-W]
+ - Iron Head (x2)
+:::::
