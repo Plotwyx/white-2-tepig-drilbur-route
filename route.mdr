@@ -57,6 +57,25 @@
   53 -> 5, 73, 22, 16, 12, 51
   54 -> 5, 73, 22, 18, 12, 53
   55 -> 7, 73, 24, 18, 14, 53
+  56 -> 7, 77, 25, 19, 14, 54
+  57 -> 7, 84, 27, 20, 14, 56
+  58 -> 7, 88, 27, 20, 18, 62
+  59 -> 8, 90, 30, 20, 19, 63
+  60 -> 8, 92, 32, 20, 21, 65
+  61 -> 8, 93, 32, 25, 23, 66
+  62 -> 8, 93, 37, 27, 23, 66
+  63 -> 8, 101, 37, 27, 23, 66
+  64 -> 8, 103, 39, 30, 23, 68
+  65 -> 11, 108, 41, 30, 23, 68
+  66 -> 13, 108, 41, 33, 25, 68
+  67 -> 13, 108, 45, 33, 25, 72
+  68 -> 15, 117, 45, 33, 25, 72
+  69 -> 15, 119, 45, 36, 25, 74
+  70 -> 17, 121, 47, 39, 25, 76
+  71 -> 17, 126, 48, 39, 26, 76
+  72 -> 19, 126, 48, 44, 29, 76
+  73 -> 21, 133, 48, 47, 29, 76
+  74 -> 21, 138, 51, 47, 29, 76
 17:
   18 -> 0, 0, 4, 0, 0, 1
   19 -> 0, 0, 6, 0, 0, 2
@@ -96,6 +115,25 @@
   53 -> 5, 73, 19, 16, 12, 51
   54 -> 5, 73, 19, 18, 12, 53
   55 -> 7, 73, 21, 18, 14, 53
+  56 -> 7, 77, 22, 19, 14, 54
+  57 -> 7, 84, 24, 20, 14, 56
+  58 -> 7, 88, 24, 20, 18, 62
+  59 -> 8, 90, 27, 20, 19, 63
+  60 -> 8, 92, 29, 20, 21, 65
+  61 -> 8, 93, 29, 25, 23, 66
+  62 -> 8, 93, 34, 27, 23, 66
+  63 -> 8, 101, 34, 27, 23, 66
+  64 -> 8, 103, 36, 30, 23, 68
+  65 -> 11, 108, 38, 30, 23, 68
+  66 -> 13, 108, 38, 33, 25, 68
+  67 -> 13, 108, 42, 33, 25, 72
+  68 -> 15, 117, 42, 33, 25, 72
+  69 -> 15, 119, 42, 36, 25, 74
+  70 -> 17, 121, 44, 39, 25, 76
+  71 -> 17, 126, 45, 39, 26, 76
+  72 -> 19, 126, 45, 44, 29, 76
+  73 -> 21, 133, 45, 47, 29, 76
+  74 -> 21, 138, 48, 47, 29, 76
 18:
   19 -> 0, 0, 5, 0, 0, 1
   20 -> 0, 0, 9, 0, 0, 2
@@ -134,6 +172,25 @@
   53 -> 5, 73, 19, 16, 12, 51
   54 -> 5, 73, 19, 18, 12, 53
   55 -> 7, 73, 21, 18, 14, 53
+  56 -> 7, 77, 22, 19, 14, 54
+  57 -> 7, 84, 24, 20, 14, 56
+  58 -> 7, 88, 24, 20, 18, 62
+  59 -> 8, 90, 27, 20, 19, 63
+  60 -> 8, 92, 29, 20, 21, 65
+  61 -> 8, 93, 29, 25, 23, 66
+  62 -> 8, 93, 34, 27, 23, 66
+  63 -> 8, 101, 34, 27, 23, 66
+  64 -> 8, 103, 36, 30, 23, 68
+  65 -> 11, 108, 38, 30, 23, 68
+  66 -> 13, 108, 38, 33, 25, 68
+  67 -> 13, 108, 42, 33, 25, 72
+  68 -> 15, 117, 42, 33, 25, 72
+  69 -> 15, 119, 42, 36, 25, 74
+  70 -> 17, 121, 44, 39, 25, 76
+  71 -> 17, 126, 45, 39, 26, 76
+  72 -> 19, 126, 45, 44, 29, 76
+  73 -> 21, 133, 45, 47, 29, 76
+  74 -> 21, 138, 48, 47, 29, 76
 19:
   20 -> 0, 0, 5, 0, 0, 1
   21 -> 0, 0, 9, 0, 0, 2
@@ -171,6 +228,25 @@
   53 -> 5, 73, 19, 16, 12, 49
   54 -> 5, 73, 19, 18, 12, 51
   55 -> 7, 73, 21, 18, 14, 51
+  56 -> 7, 77, 22, 19, 14, 52
+  57 -> 7, 84, 24, 20, 14, 54
+  58 -> 7, 88, 24, 20, 18, 60
+  59 -> 8, 90, 27, 20, 19, 61
+  60 -> 8, 92, 29, 20, 21, 63
+  61 -> 8, 93, 29, 25, 23, 64
+  62 -> 8, 93, 34, 27, 23, 64
+  63 -> 8, 101, 34, 27, 23, 64
+  64 -> 8, 103, 36, 30, 23, 66
+  65 -> 11, 108, 38, 30, 23, 66
+  66 -> 13, 108, 38, 33, 25, 66
+  67 -> 13, 108, 42, 33, 25, 70
+  68 -> 15, 117, 42, 33, 25, 70
+  69 -> 15, 119, 42, 36, 25, 72
+  70 -> 17, 121, 44, 39, 25, 74
+  71 -> 17, 126, 45, 39, 26, 74
+  72 -> 19, 126, 45, 44, 29, 74
+  73 -> 21, 133, 45, 47, 29, 74
+  74 -> 21, 138, 48, 47, 29, 74
 :::
 
 # White 2 Any% Manipless
@@ -270,7 +346,7 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
    - Tail Whip
    - Tackle x2
   :::::
-  :::::pokemon[Lillipup]
+  :::::pokemon[Lillipup]{info="Plus rapide à 21+ Spe (x/x/26+) (x/x/25+ avec un purrloin)" infoColor="pink"}
    - Tail Whip x2
    - Tackle x2
      ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 opponentLevel=13 opponentStat=21 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=3}
@@ -307,7 +383,7 @@ Se rendre directement à l'arène.
 :::::::trainer[Guitarist Billy Jo]
   :::::pokemon[Venipede]{info="Plus rapide à 21+ Spe (x/25+/18+)" infoColor="pink"}
    - :info[Blaze Ember]{color=red} / Ember x2
-     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=error}
+     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true healthThreshold=32 opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=error}
   :::::
   :::::pokemon[Koffing]
    - Spam Ember
@@ -360,7 +436,8 @@ Se rendre directement à l'arène.
    - Flame Charge
    - Tail Whip (Skip si en Blaze)
    - Flame Charge
-     ::damage[Venoshock]{source="Tepig" level=17 opponentLevel=18 special=true opponentStat=21 offensive=false movePower=65 stab=true}
+     ::damage[Venoshock au niveau 16]{source="Tepig" level=16 opponentLevel=18 special=true opponentStat=21 offensive=false movePower=65 stab=true}
+     ::damage[Venoshock au niveau 17]{source="Tepig" level=17 opponentLevel=18 special=true opponentStat=21 offensive=false movePower=65 stab=true}
   :::::
 :::::::
 
@@ -398,10 +475,11 @@ Se rendre à l'arène, puis au centre pokémon.
    - 14 Repels (DDH)
    - 1 Escape Rope (H)
 
+  **Si on a attrapé Pidove, le récupérer dans le pc.**
 :::
 
-Se rendre sur le quai tout à droite, répondre Oon au Rival.
-Entrer dans les égouts.
+Se rendre sur le quai tout à droite, répondre Non au Rival.
+Entrer dans les égouts. **Rappel**
 
 **Équiper** le EXP Share et répondre Oui au Rival
 
@@ -410,7 +488,7 @@ Entrer dans les égouts.
    - Flame Charge Sandile
    - Flame Charge le pokémon restant
    - (Ember)
-     ::damage[Venoshock]{source="Tepig" level=18 evolution=1 opponentLevel=16 opponentStat=29 offensive=false movePower=70 stab=false}
+     ::damage[Headbutt]{source="Tepig" level=18 evolution=1 opponentLevel=16 opponentStat=29 offensive=false movePower=70 stab=false}
   :::::
 :::::::
 
@@ -425,6 +503,8 @@ Retourner dans les égouts, **Enlever** la repousse si on a besoin de Zubat.
 ### Si pas de Pidove attrapé :
   Attraper Zubat (45%)
   Nest Ball c'est 92%/90%/87%/85% [Lv 14/15/16/17] max vie.
+
+**Mettre l'EXP Share** sur Drilbur et le **soigner**.
 
 Utiliser une Escape Rope (ou Dig si Lv 19)
 
@@ -680,7 +760,7 @@ Avant Colress, **Soigner** Drilbur, **Repel**.
     - Dig
     - (Dig)
      ::damage[Dig vs Klink sans Sand Force]{source="Drilbur" level=21 healthThreshold=54 opponentLevel=23 opponentStat=39 offensive=true movePower=80 stab=true effectiveness=2 theme=error}
-     ::damage[Gear Grind]{source="Drilbur" level=21 opponentLevel=23 opponentStat=33 offensive=false movePower=100 stab=true}
+     ::damage[Gear Grind 1 coup (touche toujours 2 fois)]{source="Drilbur" level=21 opponentLevel=23 opponentStat=33 offensive=false movePower=50 stab=true}
   :::::
 :::::::
 
@@ -1057,6 +1137,8 @@ Se soigner au maximum (apprendre Surf à Audino)
   :::::
 :::::::
 
+Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat.
+
 :::::::trainer[Rival 3]
   :::::pokemon[Unfezant]{info="Plus rapide à 83+ Spe (x/21+/2+)" infoColor="pink"}
     :::if{source="Drilbur" condition="atk=(x / 15-22 / x)"}
@@ -1089,6 +1171,7 @@ Se soigner au maximum (apprendre Surf à Audino)
   :::::
   :::::pokemon[Simisage]{info="Plus rapide à 89+ Spe (x/28+/8+)" infoColor="pink"}
    - Iron Head
+     ::damage[Seed Bomb vs +1 Excadrill]{source="Drilbur" evolution=1 level=39 opponentLevel=39 opponentStat=86 offensive=false movePower=80 combatStages=1 otherPowerModifier=1.2 stab=true}
   :::::
 :::::::
 
@@ -1116,7 +1199,7 @@ Se soigner au maximum (apprendre Surf à Audino)
 :::
 
 
-:::card{theme="error"}
+:::::card{theme="error"}
   ### Shopping Mall Nine :
   ##### Acheter (en haut à droite) :
   - 3 X Speed
@@ -1129,12 +1212,12 @@ Se soigner au maximum (apprendre Surf à Audino)
   :::
 
   ##### Acheter (1er étage à gauche):
-  - 11 Hyper Potions (BB)
+  - 13 Hyper Potions (BB)
   - 4 Full Heals (DB)
-  - 1 Escape Rope (sauf si on a gardé celle de Castelia) (D)
-  - au moins 8 Max Repels (DH)
+  - 1 Escape Rope (sauf si on a gardé celle de Castelia) (B)
+  - 10 Max Repels (DH)
 
-:::
+:::::
 
 **Utiliser le Rare Candy et les Carbos.**
 
@@ -1179,6 +1262,8 @@ Dresseur de droite.
    :info["Revenge fait environ 85"]{color=blue}
   :::::
 :::::::
+
+**Se soigner** si on est pas au max.
 
 :::::::trainer[Leader Drayden]
   :::::pokemon[Druddigon]
@@ -1429,12 +1514,12 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
   :::::pokemon[Beheeyem]
    - Iron Head
   :::::
-  :::::pokemon[Magnezone]
-   - Iron Head x2
-  :::::
   :::::pokemon[Klinklang]
-   - Earthquake
+   - Iron Head x2
    :info[Klinklang Giga Impact inflige jusqu'à 85 de dégâts maximum]{color=blue}
+  :::::
+  :::::pokemon[Magnezone]
+   - Earthquake
   :::::
 :::::::
 
@@ -1478,4 +1563,229 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
 
 :::::pokemon[Kyurem-W]
  - Iron Head (x2)
+   ::damage[Dégâts max de Fusion Flare]{source="Drilbur" evolution=1 level=63 opponentLevel=55 opponentStat=229 offensive=false movePower=100 special=true effectiveness=2 stab=false}
 :::::
+
+:::::::trainer[Team Plasma Ghetsis]
+  :::::pokemon[Cofagrius]
+    :::if{source="Tepig" condition="atk=(x / x / 10+)"}
+   - Swords Dance
+   - Earthquake
+    :::
+    :::if{source="Tepig" condition="atk=(# / # / 9-)"}
+   - Swords Dance x2 (Skip 1 si on veut tenter la range sur Eelektross)
+   - Earthquake
+    :::
+  :::::
+  :::::pokemon[Seismitoad]
+   - Earthquake
+  :::::
+  :::::pokemon[Drapion]
+   - Iron Head
+  :::::
+  :::::pokemon[Eelektross]
+   - Rock Slide
+     ::damage[+2 Rock Slide vs Eelektross]{source="Drilbur" evolution=1 level=64 healthThreshold=157 opponentLevel=50 opponentStat=97 offensive=true movePower=75 stab=false combatStages=2 theme=error}
+  :::::
+  :::::pokemon[Toxicroak]
+   - Iron Head
+  :::::
+  :::::pokemon[Hydreigon]{info="Plus rapide à 123+ Spe (13+/0+/0+)" infoColor="pink"}
+   - Iron Head
+  :::::
+:::::::
+
+Utiliser l'Escape Rope et se rendre à la route Victoire.
+
+:::::::trainer[Ace Trainer Jamie]
+  :::::pokemon[Drifblim]
+   - Swords Dance
+   - Rock Slide
+  :::::
+  :::::pokemon[Claydol]
+   - Iron Head
+  :::::
+:::::::
+**Ramasser** le Full Restore.
+
+:::::::trainer[Ace Trainer Webster]
+  :::::pokemon[Durant]
+   - Swords Dance
+   - Earthquake
+  :::::
+  :::::pokemon[Ferrothorn]
+   - Earthquake
+  :::::
+:::::::
+
+Se soigner si à portée de Brick Break !
+
+::damage[Sawk Brick Break]{source="Drilbur" evolution=1 level=67 opponentLevel=54 opponentStat=149 offensive=false movePower=75 effectiveness=2 stab=true}
+
+:::::::trainer[Veteran Portia]
+  :::::pokemon[Durant]
+    :::if{source="Tepig" condition="spe=(x / 11+ / #) && atk=(x / x / 3+)"}
+   - Earthquake
+    :::
+    :::if{source="Tepig" condition="spe=(x / 11+ / #) && atk=(# / # / 2-)"}
+   - Swords Dance
+   - (Heal)
+   - Earthquake
+    :::
+    :::if{source="Tepig" condition="spe=(# / 10- / x) && atk=(x / x / 3+)"}
+   - X Speed
+   - (Heal)
+   - Earthquake
+    :::
+    :::if{source="Tepig" condition="spe=(# / 10- / x) && atk=(# / # / 2-)"}
+   - X Speed
+   - Swords Dance
+   - (Heal)
+   - Earthquake
+    :::
+  :::::
+  :::::pokemon[Starmie]
+   - Earthquake
+  :::::
+  :::::pokemon[Sawk]
+   - Iron Head x2
+  :::::
+:::::::
+
+:::::::trainer[Veteran Sterling]
+  :::::pokemon[Beartic]
+   - Swords Dance
+   - Earthquake
+
+   :info[Beartic Brick Break inflige environ 90 de dégâts]{color=blue}
+
+   :info[Beartic Brine 130 inflige environ 102 de dégâts]{color=blue}
+  :::::
+  :::::pokemon[Golurk]
+   - Iron Head
+  :::::
+  :::::pokemon[Throh]
+   - Iron Head
+  :::::
+:::::::
+
+:::::::trainer[Rival 4]
+  :::::pokemon[Unfezant]
+   - Swords Dance
+   - (Soigner la confusion)
+   - Iron Head 
+   :info[Unfezant Facade inflige environ 40 de dégâts]{color=blue}
+  :::::
+  :::::pokemon[Bouffalant]
+   - Iron Head
+  :::::
+  :::::pokemon[Samurott]
+   - Earthquake
+  :::::
+  :::::pokemon[Simisage]
+   - Iron Head
+  :::::
+:::::::
+
+**Soigner** si vie basse.
+
+:::::::trainer[Shauntal]
+  :::::pokemon[Cofagrius]
+   - Swords Dance
+   - (Soigner la brûlure)
+   - Earthquake
+  :::::
+  :::::pokemon[Chandelure]
+   - Earthquake
+  :::::
+  :::::pokemon[Golurk]
+   - Iron Head
+  :::::
+  :::::pokemon[Drifblim]
+   - Iron Head (ou Rock Slide)
+  :::::
+:::::::
+
+:::::::trainer[Grimsley]
+  :::::pokemon[Liepard]
+   - Elixir (pendant le Fake Out)
+   - Swords Dance
+   - Iron Head
+
+   :info[Fake Out inflige environ 10 de dégâts]{color=blue}
+
+   :info[Night Slash inflige environ 25 de dégâts]{color=blue}
+  :::::
+  :::::pokemon[Krookodile]{info="Plus rapide à 134+ Spe (10+/0+/0+)" infoColor="pink"}
+   - Iron Head
+     ::damage[Earthquake]{source="Drilbur" evolution=1 level=70 opponentLevel=56 opponentStat=149 offensive=false movePower=100 effectiveness=2 stab=true}
+  :::::
+  :::::pokemon[Scrafty]
+   - Earthquake
+  :::::
+  :::::pokemon[Drifblim]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Caitlin]
+  :::::pokemon[Musharna]
+   - Swords Dance
+   - Earthquake
+  :::::
+  :::::pokemon[Reuniclus]
+   - Full Restore
+   - Earthquake
+  :::::
+  :::::pokemon[Sigilyph]
+   - Iron Head
+  :::::
+  :::::pokemon[Gothitelle]
+   - Earthquake
+  :::::
+:::::::
+
+:::::::trainer[Marshal]
+  :::::pokemon[Throh]
+   - Guard Spec
+   - Swords Dance
+   - Iron Head
+  :::::
+  :::::pokemon[Mienshao]
+   - Iron Head
+  :::::
+  :::::pokemon[Conkeldurr]
+   - Earthquake
+  :::::
+  :::::pokemon[Gothitelle]
+   - Rock Slide
+   - (Max Revive)
+   - Iron Head
+   :info[Sawk Brick Break inflige environ 180 de dégâts]{color=blue}
+  :::::
+:::::::
+
+:::::::trainer[Iris]
+  :::::pokemon[Hydreigon]
+   - Swords Dance
+   - Iron Head
+  :::::
+  :::::pokemon[Druddigon]
+   - Earthquake
+  :::::
+  :::::pokemon[Aggron]
+   - X Defend (Skippable si défense de fou)
+   - (Heal si Aggron a touché, ou si on est plus lent (159+, 19/17/14 IVS neutres à 0/1/2 Carbos))
+   - Earthquake
+  :::::
+  :::::pokemon[Haxorus]
+   - Iron Head x2
+   - (Si on meurt, on envoie un Pignite/Psyduck + Tail Whip + Max Revive + Earthquake)
+  :::::
+  :::::pokemon[Lapras]
+   - Iron Head
+  :::::
+  :::::pokemon[Archeops]
+   - Iron Head
+  :::::
+:::::::
