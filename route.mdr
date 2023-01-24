@@ -897,6 +897,8 @@ Se rendre à l'arène.
   :::::
 :::::::
 
+:info[**FREE HEAL**]{color=green}
+
 :::::::trainer[Motorcyclist Charles]
   :::::pokemon[Archen, Sigilyph et Tirtouga]
    - Rock Slide
@@ -1568,11 +1570,11 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
 
 :::::::trainer[Team Plasma Ghetsis]
   :::::pokemon[Cofagrius]
-    :::if{source="Tepig" condition="atk=(x / x / 10+)"}
+    :::if{source="Drilbur" condition="atk=(x / x / 10+)"}
    - Swords Dance
    - Earthquake
     :::
-    :::if{source="Tepig" condition="atk=(# / # / 9-)"}
+    :::if{source="Drilbur" condition="atk=(# / # / 9-)"}
    - Swords Dance x2 (Skip 1 si on veut tenter la range sur Eelektross)
    - Earthquake
     :::
@@ -1624,20 +1626,20 @@ Se soigner si à portée de Brick Break !
 
 :::::::trainer[Veteran Portia]
   :::::pokemon[Durant]
-    :::if{source="Tepig" condition="spe=(x / 11+ / #) && atk=(x / x / 3+)"}
+    :::if{source="Drilbur" condition="spe=(x / 11+ / #) && atk=(x / x / 3+)"}
    - Earthquake
     :::
-    :::if{source="Tepig" condition="spe=(x / 11+ / #) && atk=(# / # / 2-)"}
+    :::if{source="Drilbur" condition="spe=(x / 11+ / #) && atk=(# / # / 2-)"}
    - Swords Dance
    - (Heal)
    - Earthquake
     :::
-    :::if{source="Tepig" condition="spe=(# / 10- / x) && atk=(x / x / 3+)"}
+    :::if{source="Drilbur" condition="spe=(# / 10- / x) && atk=(x / x / 3+)"}
    - X Speed
    - (Heal)
    - Earthquake
     :::
-    :::if{source="Tepig" condition="spe=(# / 10- / x) && atk=(# / # / 2-)"}
+    :::if{source="Drilbur" condition="spe=(# / 10- / x) && atk=(# / # / 2-)"}
    - X Speed
    - Swords Dance
    - (Heal)
