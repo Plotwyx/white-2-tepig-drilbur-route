@@ -1625,7 +1625,7 @@ Se soigner si à portée de Brick Break !
 ::damage[Sawk Brick Break]{source="Drilbur" evolution=1 level=67 opponentLevel=54 opponentStat=149 offensive=false movePower=75 effectiveness=2 stab=true}
 
 :::::::trainer[Veteran Portia]
-  :::::pokemon[Durant]
+  :::::pokemon[Zebstrika]
     :::if{source="Drilbur" condition="spe=(x / 11+ / #) && atk=(x / x / 3+)"}
    - Earthquake
     :::
@@ -1725,7 +1725,7 @@ Se soigner si à portée de Brick Break !
   :::::pokemon[Scrafty]
    - Earthquake
   :::::
-  :::::pokemon[Drifblim]
+  :::::pokemon[Bisharp]
    - Earthquake
   :::::
 :::::::
@@ -1759,7 +1759,7 @@ Se soigner si à portée de Brick Break !
   :::::pokemon[Conkeldurr]
    - Earthquake
   :::::
-  :::::pokemon[Gothitelle]
+  :::::pokemon[Sawk]
    - Rock Slide
    - (Max Revive)
    - Iron Head
