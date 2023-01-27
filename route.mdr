@@ -383,7 +383,7 @@ Se rendre directement à l'arène.
 :::::::trainer[Guitarist Billy Jo]
   :::::pokemon[Venipede]{info="Plus rapide à 21+ Spe (x/25+/18+)" infoColor="pink"}
    - :info[Blaze Ember]{color=red} / Ember x2
-     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true healthThreshold=32 opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true theme=error}
+     ::damage[Blaze Ember vs Venipede]{source="Tepig" level=14 special=true healthThreshold=32 opponentLevel=14 torrent=true opponentStat=13 offensive=true movePower=40 stab=true effectiveness=2 theme=error}
   :::::
   :::::pokemon[Koffing]
    - Spam Ember
@@ -802,7 +802,8 @@ Se rendre à l'ancienne arène.
     - 2 Awakenings (B)
     - 3 Revives (HHH)
     - 11 Hyper Potions (H)
-    ##### Récupérer les Red Shards auprès du Gentleman.
+
+    **RÉCUPÉRER LES RED SHARDS AUPRES DU GENTLEMAN !!**
 
     ##### Soigner l'équipe au PC.
     - Déposer Pignite si on a un surfer.
@@ -1145,7 +1146,7 @@ Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat
   :::::pokemon[Unfezant]{info="Plus rapide à 83+ Spe (x/21+/2+)" infoColor="pink"}
     :::if{source="Drilbur" condition="atk=(x / 15-22 / x)"}
       - Hone Claws jusqu'à la provoc
-      - X Defend
+      - **X Defend**
       - Si à +0 : Iron Head x2
       - Si à +1 : Rock Slide (range)
       - Si à +2 : Rock Slide
@@ -1467,7 +1468,7 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
 
 :::::::trainer[Team Plasma Grunt]
   :::::pokemon[Weezing]
-   - Sacrifier tous les esclaves sauf 1
+   - Sacrifier tous les esclaves sauf 1 (sacrifier l'esclave vol en priorité)
    - Swords Dance
    - Iron Head
   :::::
