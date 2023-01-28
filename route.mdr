@@ -1400,10 +1400,10 @@ Dresseur de droite.
   :::::pokemon[Pawniard]
    - Earthquake
   :::::
-  :::::pokemon[Pawniard]
+  :::::pokemon[Absol]
    - Earthquake
   :::::
-  :::::pokemon[Absol]
+  :::::pokemon[Pawniard]
    - Earthquake
   :::::
 :::::::
@@ -1558,7 +1558,7 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
    - Iron Head
    - Earthquake
   :::::
-  :::::pokemon[Metang]
+  :::::pokemon[Magnezone]
    - Swords Dance
    - Iron Head
    - Earthquake
@@ -1570,7 +1570,7 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
    - Iron Head x2
    :info[Klinklang Giga Impact inflige jusqu'à 85 de dégâts maximum]{color=blue}
   :::::
-  :::::pokemon[Magnezone]
+  :::::pokemon[Metang]
    - Earthquake
   :::::
 :::::::
@@ -1581,35 +1581,35 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
   :::::pokemon[Pawniard]
    - Earthquake
   :::::
-  :::::pokemon[Pawniard]
-   - Iron Head
-  :::::
   :::::pokemon[Absol]
    - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
   :::::
 :::::::
 
 :::::::trainer[Team Plasma Shadow]
   :::::pokemon[Pawniard]
    - Earthquake
-  :::::
-  :::::pokemon[Pawniard]
-   - Iron Head
   :::::
   :::::pokemon[Banette]
    - Earthquake
   :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
+  :::::
 :::::::
 
 :::::::trainer[Team Plasma Shadow]
   :::::pokemon[Pawniard]
    - Earthquake
   :::::
-  :::::pokemon[Pawniard]
-   - Iron Head
-  :::::
   :::::pokemon[Accelgor]
    - Earthquake
+  :::::
+  :::::pokemon[Pawniard]
+   - Iron Head
   :::::
 :::::::
 
