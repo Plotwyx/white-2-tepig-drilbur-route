@@ -317,12 +317,31 @@ Ramasser X Attack dans le ranch et X Speed à côté de la maison d'Alder.
 Aller à l'arène, récupérer le Défense + auprès du PNJ dans l'école.
 
 :::::::trainer[Youngster Pedro]
-  :::::pokemon[Patrat]
+  :::::pokemon[Patrat]     
    - Tackle x2
    - Ember
   :::::
   :::::pokemon[Lillipup]
+    :::if{source="Tepig" condition="atk=(x / 11+ / 2+)"}
    - Tackle x3
+    :::
+    :::if{source="Tepig" condition="atk=(29+ / 2-10 / 1-) && spatk=(#/19-/9-)"}
+   - Tail Whip
+   - Tackle x2 (range 96.5%)
+   - (Tackle)
+    :::
+    :::if{source="Tepig" condition="atk=(29+ / 2-10 / 1-) && spatk=(#/19-/9-)"}
+   - Ember x3
+    :::
+    :::if{source="Tepig" condition="atk=(x / 1- / x) && spatk=(9-/x/x)"}
+   - Tail Whip
+   - Tackle x2 (range 59%)
+   - (Tackle)
+    :::
+    :::if{source="Tepig" condition="atk=(28- / 1- / x) && spatk=(10+/#/#)"}
+   - Ember x3 (range 82.5%)
+   - (Tackle)
+    :::
   :::::
 :::::::
 
