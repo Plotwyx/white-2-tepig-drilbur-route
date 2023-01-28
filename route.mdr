@@ -330,7 +330,7 @@ Aller à l'arène, récupérer le Défense + auprès du PNJ dans l'école.
    - Tackle x2 (range 96.5%)
    - (Tackle)
     :::
-    :::if{source="Tepig" condition="atk=(29+ / 2-10 / 1-) && spatk=(#/19-/9-)"}
+    :::if{source="Tepig" condition="atk=(29+ / 2-10 / 1-) && spatk=(x/20+/10+)"}
    - Ember x3
     :::
     :::if{source="Tepig" condition="atk=(x / 1- / x) && spatk=(9-/x/x)"}
