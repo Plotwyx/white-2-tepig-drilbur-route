@@ -390,10 +390,6 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
    - Tail Whip
    - Tackle x3
     :::
-    :::if{source="Tepig" condition="atk=(4-26 / 3- / x)"}
-   - Tail Whip
-   - Tackle x3
-    :::
     :::if{source="Tepig" condition="atk=(3- / x / x)"}
    - Tail Whip x2
    - Tackle x3
