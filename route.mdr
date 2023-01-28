@@ -361,13 +361,43 @@ __Se soigner__, __Equiper__ la baie Oran et __Enregister__ le sac des baies
 
 :::::::trainer[Leader Cheren]
   :::::pokemon[Patrat]
+    :::if{source="Tepig" condition="atk=(27+ / 4+ / #)"}
    - Defense Curl
    - Tail Whip
    - Tackle x2
-  :::::
-  :::::pokemon[Lillipup]{info="Plus rapide à 21+ Spe (x/x/26+) (x/x/25+ avec un purrloin)" infoColor="pink"}
+    :::
+    :::if{source="Tepig" condition="atk=(26- / 3- / x) && spatk=(26+/10+/3+)"}
+   - Defense Curl
+   - Ember x3 (x4)
+    :::
+    :::if{source="Tepig" condition="atk=(20-26 / 3- / x) && spatk=(25-/9-/2-)"}
+   - Defense Curl
+   - Tail Whip
+   - Tackle x2 (range)
+    :::
+    :::if{source="Tepig" condition="atk=(19- / x / x) && spatk=(25-/9-/2-)"}
+   - Defense Curl
    - Tail Whip x2
    - Tackle x2
+    :::
+  :::::
+  :::::pokemon[Lillipup]{info="Plus rapide à 21+ Spe (x/x/26+) (x/x/25+ avec un purrloin)" infoColor="pink"}
+    :::if{source="Tepig" condition="atk=(27+ / 4+ / #)"}
+   - Tail Whip x2
+   - Tackle x2
+    :::
+    :::if{source="Tepig" condition="atk=(4-26 / 3- / x)"}
+   - Tail Whip
+   - Tackle x3
+    :::
+    :::if{source="Tepig" condition="atk=(4-26 / 3- / x)"}
+   - Tail Whip
+   - Tackle x3
+    :::
+    :::if{source="Tepig" condition="atk=(3- / x / x)"}
+   - Tail Whip x2
+   - Tackle x3
+    :::
      ::damage[+3 Tackle vs +1 Tepig]{source="Tepig" level=13 opponentLevel=13 opponentStat=21 offensive=false movePower=50 stab=true combatStages=1 opponentCombatStages=3}
   :::::
 :::::::
