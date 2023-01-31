@@ -609,6 +609,7 @@ Se rendre à l'arène.
     :::::
     :::::pokemon[Dwebble]
      - Tail Whip
+     - Tail Whip
      - Flame Charge
      - Echanger Drilbur
      - Dig
@@ -665,6 +666,7 @@ Se rendre à l'arène.
     :::::
     :::::pokemon[Dwebble]
      - Tail Whip
+     - Tail Whip
      - Flame Charge
      - Echanger Drilbur
      - Dig
@@ -716,6 +718,7 @@ Se rendre à l'arène.
      - Flame Charge
     :::::
     :::::pokemon[Dwebble]
+     - Tail Whip
      - Tail Whip
      - Flame Charge
      - Echanger Drilbur
@@ -769,6 +772,7 @@ Se rendre à l'arène.
      - Flame Charge
     :::::
     :::::pokemon[Dwebble]
+     - Tail Whip
      - Tail Whip
      - Flame Charge
      - Echanger Drilbur
@@ -1578,10 +1582,10 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
    - Earthquake
   :::::
   :::::pokemon[Absol]
-   - Earthquake
+   - Iron Head
   :::::
   :::::pokemon[Pawniard]
-   - Iron Head
+   - Earthquake
   :::::
 :::::::
 
@@ -1590,10 +1594,10 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
    - Earthquake
   :::::
   :::::pokemon[Banette]
-   - Earthquake
+   - Iron Head
   :::::
   :::::pokemon[Pawniard]
-   - Iron Head
+   - Earthquake
   :::::
 :::::::
 
@@ -1602,14 +1606,14 @@ Se rendre au Giant Chasm, sortir en bas au milieu, pour définir le point d'Esca
    - Earthquake
   :::::
   :::::pokemon[Accelgor]
-   - Earthquake
+   - Iron Head
   :::::
   :::::pokemon[Pawniard]
-   - Iron Head
+   - Earthquake
   :::::
 :::::::
 
-:::::pokemon[Kyurem-W]
+:::::pokemon[Kyurem-W]{info="Forcément Plus rapide à 139+ Spe (x/21+/2+)" infoColor="pink"}
  - Iron Head (x2)
    ::damage[Dégâts max de Fusion Flare]{source="Drilbur" evolution=1 level=63 opponentLevel=55 opponentStat=229 offensive=false movePower=100 special=true effectiveness=2 stab=false}
 :::::
