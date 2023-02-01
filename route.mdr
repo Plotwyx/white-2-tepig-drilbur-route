@@ -1254,11 +1254,20 @@ Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat
 
 :::::card{theme="error"}
   ### Shopping Mall Nine :
+  :::if{source="Drilbur" condition="spe=(9- / x / x)"}
+  ##### Acheter (en haut à droite) :
+  - 4 X Speed
+  - 2 X Attack
+  - 1 X Defend
+  - 1 Guard Spec.
+  :::
+  :::if{source="Drilbur" condition="spe=(10+ / # / #)"}
   ##### Acheter (en haut à droite) :
   - 3 X Speed
   - 2 X Attack
   - 1 X Defend
   - 1 Guard Spec.
+  :::
 
   :::if{source="Drilbur" condition="spe=(x/28-29/8-9)"}
   ##### Acheter (en haut à gauche) 1 Carbos. 
@@ -1773,17 +1782,23 @@ Se soigner si à portée de Brick Break !
 
 :::::::trainer[Grimsley]
   :::::pokemon[Liepard]
+    :::if{source="Drilbur" condition="spe=(9- / x / x)"}
+   - X Speed
    - Elixir (pendant le Fake Out)
    - Swords Dance
    - Iron Head
-
+    :::
+    :::if{source="Drilbur" condition="spe=(10+ / # / #)"}
+   - Elixir (pendant le Fake Out)
+   - Swords Dance
+   - Iron Head
+    :::
    :info[Fake Out inflige environ 10 de dégâts]{color=blue}
 
    :info[Night Slash inflige environ 25 de dégâts]{color=blue}
   :::::
-  :::::pokemon[Krookodile]{info="Plus rapide à 134+ Spe (10+/0+/0+)" infoColor="pink"}
+  :::::pokemon[Krookodile]
    - Iron Head
-     ::damage[Earthquake]{source="Drilbur" evolution=1 level=70 opponentLevel=56 opponentStat=149 offensive=false movePower=100 effectiveness=2 stab=true}
   :::::
   :::::pokemon[Scrafty]
    - Earthquake
