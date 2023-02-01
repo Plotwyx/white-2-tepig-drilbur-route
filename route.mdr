@@ -1320,16 +1320,27 @@ Dresseur de droite.
 
 :::::::trainer[Leader Drayden]
   :::::pokemon[Druddigon]
-    :::if{source="Drilbur" condition="spe=(x / x / 16+)"}
+    :::if{source="Drilbur" condition="spe=(x / x / 16+) && ((hp=(x / 5- / x) && def=(#/24-/11-)) || (hp=(x / 6-14 / x) && def=(#/20-/7-)) || (hp=(x / 15-23 / x) && def=(#/15-/2-)) || (hp=(x / 24+ / x) && def=(#/13-/0)))"}
+      - X Defend
       - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
       - Iron Head
     :::
-    :::if{source="Drilbur" condition="spe=(# / # / 15-)"}
+    :::if{source="Drilbur" condition="spe=(# / # / 15-) && ((hp=(x / 5- / x) && def=(#/24-/11-)) || (hp=(x / 6-14 / x) && def=(#/20-/7-)) || (hp=(x / 15-23 / x) && def=(#/15-/2-)) || (hp=(x / 24+ / x) && def=(#/13-/0)))"}
+      - X Defend
       - X Speed 
       - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
       - Iron Head
     :::
-     ::damage[Revenge]{source="Drilbur" evolution=1 level=45 opponentLevel=46 opponentStat=110 offensive=false effectiveness=2 movePower=60 stab=false}
+    :::if{source="Drilbur" condition="spe=(x / x / 16+) && ((hp=(x / 5- / x) && def=(x/25+/12+)) || (hp=(x / 6-14 / x) && def=(x/21+/8-)) || (hp=(x / 15-23 / x) && def=(x/16+/3+)) || (hp=(x / 24+ / x) && def=(x/14+/1+)))"}
+      - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
+      - Iron Head
+    :::
+    :::if{source="Drilbur" condition="spe=(# / # / 15-) && ((hp=(x / 5- / x) && def=(x/25+/12+)) || (hp=(x / 6-14 / x) && def=(x/21+/8-)) || (hp=(x / 15-23 / x) && def=(x/16+/3+)) || (hp=(x / 24+ / x) && def=(x/14+/1+)))"}
+      - X Speed 
+      - Swords Dance x2 (Skip une si ATK 156+ (x/x/21+) avec 2 protéines)
+      - Iron Head
+    :::
+     ::damage[Revenge contre +0 Drilbur]{source="Drilbur" evolution=1 level=45 opponentLevel=46 opponentStat=110 offensive=false effectiveness=2 movePower=60 stab=false}
   :::::
   :::::pokemon[Flygon]
    - Iron Head
@@ -1828,8 +1839,6 @@ Se soigner si à portée de Brick Break !
    - Earthquake
   :::::
   :::::pokemon[Aggron]
-   - X Defend (Skippable si défense de fou)
-   - (Heal si Aggron a touché, ou si on est plus lent (159+, 19/17/14 IVS neutres à 0/1/2 Carbos))
    - Earthquake
   :::::
   :::::pokemon[Haxorus]
