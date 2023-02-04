@@ -1054,6 +1054,7 @@ H | D B D | H H H D B D H
     :info[x / 18+ / 0+      99+       100% <br/>]{color=red}
   :::::
   :::::pokemon[Excadrill]{info="Plus rapide à 70+ Spe (x/25+/6+)" infoColor="pink"}
+   - Si on s'est pas heal avant et qu'on est plus lent, sacrifier Zubat pour se heal
    - Dig
      ::damage[Bulldoze]{source="Drilbur" evolution=1 level=32 opponentLevel=33 opponentStat=100 offensive=false movePower=60 effectiveness=2 stab=true}
   :::::
