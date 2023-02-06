@@ -950,7 +950,7 @@ Se rendre à l'arène.
 :info[**FREE HEAL**]{color=green}
 
 :::::::trainer[Motorcyclist Charles]
-  :::::pokemon[Archen, Sigilyph et Tirtouga]
+  :::::pokemon[Archen, Sigilyph et Tirtouga]{info="Plus rapide que Sigilyph à 56+ Spe (x/31/15+)" infoColor="pink"}
    - Rock Slide
    - X Attack
    - X Sp.Def
