@@ -1231,13 +1231,13 @@ Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat
 
 **Ramasser** le Max Ether.
 
-**Se soigner si à portée de Ice Beam !**
+**Se soigner si à portée de Ice Beam ! (voire un peu plus) **
 
 ::damage[Cryogonal Ice Beam]{source="Drilbur" evolution=1 level=41 opponentLevel=42 special=true opponentStat=82 offensive=false movePower=95 stab=true}
 
 :::::::trainer[Zinzolin & Team Plasma Grunt]
-  :::::pokemon[Cryogonal, Golba, Sneasel and Garbodor]
-   - Hone Claws
+  :::::pokemon[Cryogonal, Golbat, Sneasel and Garbodor]
+   - IH Cryogonal
    - Rock Slide
    - Earthquake
   :::::
