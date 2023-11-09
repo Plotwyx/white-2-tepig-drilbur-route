@@ -1195,21 +1195,14 @@ Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat
 
 :::::::trainer[Rival 3]
   :::::pokemon[Unfezant]{info="Plus rapide à 83+ Spe (x/21+/2+)" infoColor="pink"}
-    :::if{source="Drilbur" condition="atk=(x / 15-22 / x)"}
-      - Hone Claws jusqu'à la provoc
-      - **X Defend**
-      - Si à +0 : Iron Head x2
-      - Si à +1 : Rock Slide (range)
-      - Si à +2 : Rock Slide
-    :::
     :::if{source="Drilbur" condition="atk=(x / 23+ / #)"}
       - Hone Claws jusqu'à la provoc
       - X Defend
       - Si à +0 : Iron Head x2
-      - Si à +1 : Rock Slide (range)
+      - Si à +1 : Rock Slide (range garantie à x/x/13+)
       - Si à +2 : Iron Head
     :::
-    :::if{source="Drilbur" condition="atk=(# / 14- / x)"}
+    :::if{source="Drilbur" condition="atk=(# / 22- / x)"}
       - Hone Claws jusqu'à la provoc
       - X Defend
       - Si à +0 : Rock Slide + Iron Head
@@ -1219,8 +1212,8 @@ Il faut avoir encore 2 Hyper Potions, sinon en acheter au centre avant le combat
   :::::
   :::::pokemon[Samurott]
    - Hone Claws si à +0
-   - Si à +1 : Earthquake x2
-   - Si à +2 : Iron Head + Earthquake
+   - Si à +1 : RS + EQ (range 96% à x/15+/all)
+   - Si à +2 : RS + Earthquake
      ::damage[Aqua Jet (sans Torrent) vs +1 Excadrill]{source="Drilbur" evolution=1 level=39 opponentLevel=41 opponentStat=94 offensive=false movePower=40 combatStages=1 otherPowerModifier=1.2 effectiveness=2 stab=true}
   :::::
   :::::pokemon[Simisage]{info="Plus rapide à 89+ Spe (x/28+/8+)" infoColor="pink"}
